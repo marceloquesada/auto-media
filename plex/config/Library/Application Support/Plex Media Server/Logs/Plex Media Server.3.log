@@ -1,375 +1,685 @@
-Dec 29, 2025 00:24:45.986 [132987236526904] INFO - Plex Media Server v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 debian - GMT -03:00
-Dec 29, 2025 00:24:45.986 [132987236526904] INFO - Linux version: 6.8.0-90-generic, language: en-US
-Dec 29, 2025 00:24:45.987 [132987236526904] INFO - Processor: 8-core Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
-Dec 29, 2025 00:24:45.987 [132987236526904] INFO - Compiler is - Clang 11.0.1 (https://plex.tv 9b997da8e5b47bdb4a9425b3a3b290be393b4b1f)
-Dec 29, 2025 00:24:45.987 [132987236526904] INFO - /usr/lib/plexmediaserver/Plex Media Server
-Dec 29, 2025 00:24:45.987 [132987239070352] DEBUG - BPQ: [Idle] -> [Starting]
-Dec 29, 2025 00:24:45.987 [132987239070352] DEBUG - FeatureManager: Using cached data for features list
-Dec 29, 2025 00:24:45.992 [132987239070352] DEBUG - MyPlex: mapping state set to 'Unknown'.
-Dec 29, 2025 00:24:45.992 [132987239070352] DEBUG - Relay: read 0 cached entries from hosts file
-Dec 29, 2025 00:24:45.992 [132987239070352] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Dec 29, 2025 00:24:46.059 [132987239070352] DEBUG - MyPlex: no cached data to load for request for https://plex.tv/api/v2/server/users/features
-Dec 29, 2025 00:24:46.097 [132987239070352] DEBUG - HttpServer: Listening on IPv6 as well as IPv4.
-Dec 29, 2025 00:24:46.097 [132987239070352] DEBUG - HttpServer: Listening on port 32400.
-Dec 29, 2025 00:24:46.097 [132987239070352] DEBUG - HttpServer: Listening on port 32401.
-Dec 29, 2025 00:24:46.097 [132987239070352] DEBUG - Running server...
-Dec 29, 2025 00:24:46.098 [132987218795320] DEBUG - HttpServer: Set up a thread pool with 2 threads.
-Dec 29, 2025 00:24:46.098 [132987239070352] INFO - Running migrations. (EPG 0)
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 0.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 1.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 2.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 3.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 4.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 5.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 6.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 7.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 8.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 9.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 10.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 11.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 12.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 13.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 14.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 15.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 16.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 17.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 18.
-Dec 29, 2025 00:24:46.099 [132987239070352] DEBUG - Captured session 19.
-Dec 29, 2025 00:24:46.103 [132987239070352] DEBUG - ChangestampAllocator: initialized to 0
-Dec 29, 2025 00:24:46.103 [132987239070352] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.39.4, threadsafe=1
-Dec 29, 2025 00:24:46.109 [132987239070352] INFO - Running migrations. (EPG 0)
-Dec 29, 2025 00:24:46.110 [132987239070352] DEBUG - Captured session 0.
-Dec 29, 2025 00:24:46.110 [132987239070352] DEBUG - Captured session 1.
-Dec 29, 2025 00:24:46.313 [132987231857464] DEBUG - Grabber: Cleaning up orphaned grabs.
-Dec 29, 2025 00:24:46.314 [132987231857464] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
-Dec 29, 2025 00:24:46.314 [132987239070352] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
-Dec 29, 2025 00:24:46.314 [132987239070352] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
-Dec 29, 2025 00:24:46.314 [132987231857464] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
-Dec 29, 2025 00:24:46.315 [132987239070352] DEBUG - Opening 1 database sessions to library (), SQLite 3.39.4, threadsafe=1
-Dec 29, 2025 00:24:46.318 [132987214691128] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c" changed: -1 => 2025-12-22 06:37:22 (1766396242).
-Dec 29, 2025 00:24:46.318 [132987214691128] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2025-12-28 20:32:23 (1766964743).
-Dec 29, 2025 00:24:46.318 [132987214691128] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c"
-Dec 29, 2025 00:24:46.321 [132987214691128] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
-Dec 29, 2025 00:24:46.321 [132987214691128] DEBUG - PluginRepository::setStartState: 1, startingSystem
-Dec 29, 2025 00:24:46.321 [132987214691128] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/System.bundle.
-Dec 29, 2025 00:24:46.322 [132987214691128] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
-Dec 29, 2025 00:24:46.322 [132987214691128] DEBUG - Starting file watcher for com.plexapp.system
-Dec 29, 2025 00:24:46.323 [132987214691128] DEBUG - Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
-Dec 29, 2025 00:24:46.323 [132987214691128] DEBUG - Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
-Dec 29, 2025 00:24:46.324 [132987214691128] DEBUG - Spawned plug-in com.plexapp.system with PID 198
-Dec 29, 2025 00:24:46.324 [132987214691128] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
-Dec 29, 2025 00:24:46.972 [132987222014776] DEBUG - Request: didn't get any data from [::ffff:127.0.0.1]:39040: End of file
-Dec 29, 2025 00:24:47.614 [132987210259256] DEBUG - Request: [127.0.0.1:39048 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #3 GZIP Token ()
-Dec 29, 2025 00:24:47.614 [132987224124216] DEBUG - Completed: [127.0.0.1:39048] 503 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (4 live) #3 GZIP 0ms 436 bytes
-Dec 29, 2025 00:24:47.614 [132987210259256] DEBUG - Request: [127.0.0.1:39058 (Loopback)] GET / (4 live) #4 GZIP Token ()
-Dec 29, 2025 00:24:47.615 [132987224124216] DEBUG - Completed: [127.0.0.1:39058] 503 GET / (3 live) #4 GZIP 0ms 436 bytes
-Dec 29, 2025 00:24:47.984 [132987231857464] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader "--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.42.2.10156-f737b826c" --version=1.42.2.10156-f737b826c --platform=Linux --platformVersion=6.8.0-90-generic --serverUuid=6824e981caa73ca305a0f0d7debf19a40b0c2da5 --userId=NOUSERID --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --vendor=Docker --model=x86_64 "--device=Docker Container (LinuxServer.io)"
-Dec 29, 2025 00:24:47.985 [132987231857464] DEBUG - [JobRunner] Jobs: Starting child process with pid 232
-Dec 29, 2025 00:24:48.006 [132987234323256] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 232 is 0 (success)
-Dec 29, 2025 00:24:48.410 [132987207797560] DEBUG - Request: [127.0.0.1:39064 (Loopback)] GET /servers (3 live) #5 GZIP Token ()
-Dec 29, 2025 00:24:48.410 [132987224124216] DEBUG - Completed: [127.0.0.1:39064] 503 GET /servers (3 live) #5 GZIP 0ms 436 bytes
-Dec 29, 2025 00:24:48.429 [132987214691128] DEBUG - Reading 486 bytes in the body, code is 200
-Dec 29, 2025 00:24:48.430 [132987214691128] DEBUG - [com.plexapp.system] Plug-in running on port 39327.
-Dec 29, 2025 00:24:48.430 [132987214691128] DEBUG -  * Plug-in handles prefix: /system
-Dec 29, 2025 00:24:48.430 [132987214691128] DEBUG -  * Plug-in handles prefix: /player
-Dec 29, 2025 00:24:48.430 [132987214691128] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
-Dec 29, 2025 00:24:48.430 [132987214691128] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
-Dec 29, 2025 00:24:48.430 [132987214691128] DEBUG - PluginRepository::setStartState: 2, startingPlugins
-Dec 29, 2025 00:24:48.430 [132987214691128] DEBUG - Updating the list of agents known by the system.
-Dec 29, 2025 00:24:48.430 [132987214691128] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
-Dec 29, 2025 00:24:48.430 [132987214691128] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:39327/system/agents
-Dec 29, 2025 00:24:48.430 [132987239070352] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
-Dec 29, 2025 00:24:48.431 [132987239070352] DEBUG - Transcoder: Cleaning old transcode directories.
-Dec 29, 2025 00:24:48.431 [132987239070352] DEBUG - MyPlex: stop public ip check and mapping - current mapped state: 'Unknown'.
-Dec 29, 2025 00:24:48.432 [132987239070352] DEBUG - NetworkInterface: Starting watch thread.
-Dec 29, 2025 00:24:48.432 [132987239070352] DEBUG - Network change.
-Dec 29, 2025 00:24:48.432 [132987239070352] DEBUG - NetworkInterface: Notified of network changed (force=0)
-Dec 29, 2025 00:24:48.432 [132987201469240] DEBUG - NetworkInterface: Watching for changes on the interfaces.
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - Detected primary interface: 192.168.0.100
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - Network interfaces:
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG -  * 2 enp1s0 (192.168.0.100) (64-1C-67-9D-F4-95) (loopback: 0)
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG -  * 5 docker0 (172.17.0.1) (1A-C1-EA-E8-E1-CA) (loopback: 0)
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG -  * 46 br-a2756ab59429 (172.18.0.1) (82-3E-8B-FF-1B-14) (loopback: 0)
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG -  * 2 enp1s0 (2804:14d:7834:8046:661c:67ff:fe9d:f495) (64-1C-67-9D-F4-95) (loopback: 0)
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - Creating NetworkServices singleton.
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkServices: Initializing...
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Creating new service.
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Got notification of changed network (first change: 1)
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Quick dispatch of network change.
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - Network change for advertiser.
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Creating new service.
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Got notification of changed network (first change: 1)
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Quick dispatch of network change.
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Creating new service.
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Got notification of changed network (first change: 1)
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Quick dispatch of network change.
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Creating new service.
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Got notification of changed network (first change: 1)
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Quick dispatch of network change.
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Creating new service.
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Got notification of changed network (first change: 1)
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Quick dispatch of network change.
-Dec 29, 2025 00:24:48.433 [132987239070352] DEBUG - NetworkService: Creating new service.
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - Network change for advertiser.
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - Network change for advertiser.
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - NetworkService: Browsing on interface 192.168.0.100 on broadcast address 192.168.0.255 (index: 1)
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - NetworkService: Browsing on interface 172.17.0.1 on broadcast address 172.17.255.255 (index: 2)
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 3)
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
-Dec 29, 2025 00:24:48.433 [132987199359800] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
-Dec 29, 2025 00:24:48.434 [132987199359800] DEBUG - NetworkService: Browsing on interface 192.168.0.100 on broadcast address 192.168.0.255 (index: 1)
-Dec 29, 2025 00:24:48.434 [132987199359800] DEBUG - NetworkService: Browsing on interface 172.17.0.1 on broadcast address 172.17.255.255 (index: 2)
-Dec 29, 2025 00:24:48.434 [132987199359800] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 3)
-Dec 29, 2025 00:24:48.434 [132987239070352] DEBUG - NetworkService: Got notification of changed network (first change: 1)
-Dec 29, 2025 00:24:48.434 [132987239070352] DEBUG - NetworkService: Quick dispatch of network change.
-Dec 29, 2025 00:24:48.434 [132987199359800] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
-Dec 29, 2025 00:24:48.434 [132987199359800] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
-Dec 29, 2025 00:24:48.434 [132987199359800] DEBUG - NetworkService: Browsing on interface 192.168.0.100 on broadcast address 239.255.255.250 (index: 0)
-Dec 29, 2025 00:24:48.434 [132987199359800] DEBUG - NetworkService: Browsing on interface 172.17.0.1 on broadcast address 239.255.255.250 (index: 1)
-Dec 29, 2025 00:24:48.434 [132987199359800] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 2)
-Dec 29, 2025 00:24:48.437 [132987190922040] DEBUG - [ChildProcessMonitor] Plex Tuner Service starting.
-Dec 29, 2025 00:24:48.437 [132987190922040] DEBUG - [ChildProcessMonitor/JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Tuner Service" /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.42.2.10156-f737b826c 32600
-Dec 29, 2025 00:24:48.437 [132987195140920] DEBUG - [DatabaseFixups] Running fix-ups.
-Dec 29, 2025 00:24:48.437 [132987195140920] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupRetroGames] Executing fixup
-Dec 29, 2025 00:24:48.437 [132987195140920] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupRetroGames] Fixup completed
-Dec 29, 2025 00:24:48.437 [132987195140920] DEBUG - [DatabaseFixups/39DatabaseFixupsEnsureLibrarySectionUuids] Executing fixup
-Dec 29, 2025 00:24:48.437 [132987239070352] DEBUG - Waiting for server condition to be signaled.
-Dec 29, 2025 00:24:48.437 [132987231857464] DEBUG - [HCl#3] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
-Dec 29, 2025 00:24:48.437 [132987180374840] DEBUG - [HCl#4] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=
-Dec 29, 2025 00:24:48.438 [132987190922040] DEBUG - [ChildProcessMonitor/JobRunner] Jobs: Starting child process with pid 265
-Dec 29, 2025 00:24:48.439 [132987193031480] DEBUG - DVR: Starting up.
-Dec 29, 2025 00:24:48.439 [132987188812600] DEBUG - [HCl#2] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
-Dec 29, 2025 00:24:48.440 [132987195140920] DEBUG - [DatabaseFixups/39DatabaseFixupsEnsureLibrarySectionUuids] Fixup completed
-Dec 29, 2025 00:24:48.440 [132987195140920] DEBUG - [DatabaseFixups/38DatabaseFixupsEnsureMetadataItemHashes] Executing fixup
-Dec 29, 2025 00:24:48.440 [132987195140920] DEBUG - [DatabaseFixups/38DatabaseFixupsEnsureMetadataItemHashes] Fixup completed
-Dec 29, 2025 00:24:48.440 [132987195140920] DEBUG - [DatabaseFixups/39DatabaseFixupsSetDefaultAccountLanguage] Executing fixup
-Dec 29, 2025 00:24:48.440 [132987195140920] DEBUG - [DatabaseFixups/39DatabaseFixupsSetDefaultAccountLanguage] Fixup completed
-Dec 29, 2025 00:24:48.440 [132987195140920] DEBUG - [DatabaseFixups/52DatabaseFixupsCreateDefaultMediaProcessingTargetTags] Executing fixup
-Dec 29, 2025 00:24:48.442 [132987195140920] DEBUG - [DatabaseFixups/52DatabaseFixupsCreateDefaultMediaProcessingTargetTags] Fixup completed
-Dec 29, 2025 00:24:48.442 [132987195140920] DEBUG - [DatabaseFixups/43DatabaseFixupsUpdateAutomaticLibraryFolders] Executing fixup
-Dec 29, 2025 00:24:48.442 [132987195140920] DEBUG - [DatabaseFixups/43DatabaseFixupsUpdateAutomaticLibraryFolders] Fixup completed
-Dec 29, 2025 00:24:48.442 [132987195140920] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Executing fixup
-Dec 29, 2025 00:24:48.442 [132987195140920] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Fixup completed
-Dec 29, 2025 00:24:48.442 [132987195140920] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupActivities] Executing fixup
-Dec 29, 2025 00:24:48.442 [132987195140920] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupActivities] Fixup completed
-Dec 29, 2025 00:24:48.442 [132987195140920] DEBUG - [DatabaseFixups/35DatabaseFixupsConsolidatePeopleTags] Executing fixup
-Dec 29, 2025 00:24:48.443 [132987178265400] DEBUG - MyPlex: Sending unclaimed device connections
-Dec 29, 2025 00:24:48.443 [132987178265400] DEBUG - [HCl#5] HTTP requesting POST https://plex.tv/devices/6824e981caa73ca305a0f0d7debf19a40b0c2da5/unclaimed?Connection[][uri]=http://192.168.0.100:32400&Connection[][uri]=http://172.17.0.1:32400&Connection[][uri]=http://172.18.0.1:32400
-Dec 29, 2025 00:24:48.443 [132987195140920] DEBUG - [DatabaseFixups/35DatabaseFixupsConsolidatePeopleTags] Fixup completed
-Dec 29, 2025 00:24:48.443 [132987195140920] DEBUG - [DatabaseFixups/54DatabaseFixupsGarbageCollectTransientMetadataRelations] Executing fixup
-Dec 29, 2025 00:24:48.444 [132987195140920] DEBUG - [DatabaseFixups/54DatabaseFixupsGarbageCollectTransientMetadataRelations] Fixup completed
-Dec 29, 2025 00:24:48.444 [132987195140920] DEBUG - [DatabaseFixups/48DatabaseFixupsResetCorruptedMetadataItemClusters] Executing fixup
-Dec 29, 2025 00:24:48.444 [132987195140920] DEBUG - [DatabaseFixups/48DatabaseFixupsResetCorruptedMetadataItemClusters] Fixup completed
-Dec 29, 2025 00:24:48.444 [132987195140920] DEBUG - [DatabaseFixups] Running database fix-ups completed in 0.0 seconds.
-Dec 29, 2025 00:24:48.444 [132987193031480] DEBUG - Activity: registered new activity 35076f8e-0c61-48f9-a5b8-312e43c72aeb - "Processing subscriptions"
-Dec 29, 2025 00:24:48.508 [132987205688120] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.1s) 200 response from GET http://127.0.0.1:39327/system/agents
-Dec 29, 2025 00:24:48.508 [132987214691128] DEBUG - [com.plexapp.system] HTTP reply status 200, with 8986 bytes of content.
-Dec 29, 2025 00:24:48.512 [132987214691128] DEBUG - The system knows about 12 agents.
-Dec 29, 2025 00:24:48.512 [132987169516344] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/LyricFind.bundle.
-Dec 29, 2025 00:24:48.512 [132987167406904] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/LocalMedia.bundle.
-Dec 29, 2025 00:24:48.512 [132987165297464] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/PlexMovie.bundle.
-Dec 29, 2025 00:24:48.513 [132987214691128] DEBUG - Waiting for 16 plug-ins to finish starting.
-Dec 29, 2025 00:24:48.514 [132987169516344] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
-Dec 29, 2025 00:24:48.514 [132987165297464] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
-Dec 29, 2025 00:24:48.514 [132987169516344] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/WebClient.bundle.
-Dec 29, 2025 00:24:48.514 [132987165297464] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Musicbrainz.bundle.
-Dec 29, 2025 00:24:48.514 [132987167406904] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
-Dec 29, 2025 00:24:48.514 [132987167406904] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Fanart-TV.bundle.
-Dec 29, 2025 00:24:48.516 [132987165297464] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
-Dec 29, 2025 00:24:48.516 [132987165297464] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/TheTVDB.bundle.
-Dec 29, 2025 00:24:48.517 [132987167406904] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
-Dec 29, 2025 00:24:48.517 [132987167406904] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Scanners.bundle.
-Dec 29, 2025 00:24:48.517 [132987169516344] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/PersonalMedia.bundle.
-Dec 29, 2025 00:24:48.518 [132987165297464] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
-Dec 29, 2025 00:24:48.518 [132987165297464] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Framework.bundle.
-Dec 29, 2025 00:24:48.519 [132987167406904] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/HTbackdrops.bundle.
-Dec 29, 2025 00:24:48.520 [132987169516344] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
-Dec 29, 2025 00:24:48.520 [132987169516344] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Media-Flags.bundle.
-Dec 29, 2025 00:24:48.521 [132987165297464] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/PlexThemeMusic.bundle.
-Dec 29, 2025 00:24:48.521 [132987167406904] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
-Dec 29, 2025 00:24:48.521 [132987167406904] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/TheMovieDB.bundle.
-Dec 29, 2025 00:24:48.521 [132987169516344] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/LastFM.bundle.
-Dec 29, 2025 00:24:48.523 [132987167406904] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
-Dec 29, 2025 00:24:48.523 [132987167406904] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/MoviePosterDB.bundle.
-Dec 29, 2025 00:24:48.523 [132987165297464] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
-Dec 29, 2025 00:24:48.523 [132987169516344] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
-Dec 29, 2025 00:24:48.524 [132987167406904] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
-Dec 29, 2025 00:24:48.525 [132987214691128] DEBUG - Starting scheduled updates, every 3600 seconds
-Dec 29, 2025 00:24:48.525 [132987214691128] INFO - LibraryUpdateManager path watching is disabled
-Dec 29, 2025 00:24:48.525 [132987214691128] DEBUG - Done waiting for all plug-ins to start.
-Dec 29, 2025 00:24:48.525 [132987214691128] DEBUG - PluginRepository::setStartState: 3, complete
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale hu_HU
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale ja_JP
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale it
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale ar
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale uk
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale nl_BE
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale da
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale zh_CN
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale lt
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale fi
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale pl
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale ru
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale af
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale no
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale sv
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale ro
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale cs_CZ
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale es
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale sl
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale ko
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale sk
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale sr
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale en
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale nl
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale pt
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale et_EE
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale de
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale pt_BR
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale hu
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale he
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale hr_HR
-Dec 29, 2025 00:24:48.525 [132987150441272] DEBUG - Translator: Found locale fr
-Dec 29, 2025 00:24:48.532 [132987150441272] DEBUG - [Req#d] Starting file watcher for com.plexapp.agents.imdb
-Dec 29, 2025 00:24:48.532 [132987150441272] DEBUG - [Req#d] Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
-Dec 29, 2025 00:24:48.532 [132987150441272] DEBUG - [Req#d] Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
-Dec 29, 2025 00:24:48.534 [132987150441272] DEBUG - [Req#d] Spawned plug-in com.plexapp.agents.imdb with PID 302
-Dec 29, 2025 00:24:48.534 [132987150441272] DEBUG - [Req#d] [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
-Dec 29, 2025 00:24:48.910 [132987205688120] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.5s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
-Dec 29, 2025 00:24:48.934 [132987205688120] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.5s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=
-Dec 29, 2025 00:24:48.935 [132987180374840] DEBUG - [HCl#6] HTTP requesting GET https://plex.tv/api/v2/server/users/features
-Dec 29, 2025 00:24:48.957 [132987205688120] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.5s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
-Dec 29, 2025 00:24:48.972 [132987205688120] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.5s) 200 response from POST https://plex.tv/devices/6824e981caa73ca305a0f0d7debf19a40b0c2da5/unclaimed?Connection[][uri]=http://192.168.0.100:32400&Connection[][uri]=http://172.17.0.1:32400&Connection[][uri]=http://172.18.0.1:32400
-Dec 29, 2025 00:24:49.081 [132987205688120] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.1s) 401 response from GET https://plex.tv/api/v2/server/users/features (reused)
-Dec 29, 2025 00:24:49.081 [132987171830584] ERROR - MyPlex: Error 401 requesting JSON from: https://plex.tv/api/v2/server/users/features
-Dec 29, 2025 00:24:49.081 [132987180374840] WARN - FeatureManager: Couldn't get features. Trying again soon.
-Dec 29, 2025 00:24:49.408 [132987207797560] DEBUG - Request: [127.0.0.1:39066 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) #9 GZIP Token ()
-Dec 29, 2025 00:24:49.409 [132987207797560] DEBUG - [Req#9] [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
-Dec 29, 2025 00:24:49.409 [132987207797560] DEBUG - [Req#9/HCl#7] HTTP requesting GET http://127.0.0.1:39327/system/messaging/clear_events/com.plexapp.agents.imdb
-Dec 29, 2025 00:24:49.425 [132987205688120] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:39327/system/messaging/clear_events/com.plexapp.agents.imdb
-Dec 29, 2025 00:24:49.425 [132987207797560] DEBUG - [Req#9] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
-Dec 29, 2025 00:24:49.425 [132987224124216] DEBUG - Completed: [127.0.0.1:39066] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) #9 GZIP 16ms 280 bytes
-Dec 29, 2025 00:24:49.505 [132987210259256] DEBUG - Request: [127.0.0.1:39076 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (3 live) #e GZIP Token ()
-Dec 29, 2025 00:24:49.505 [132987210259256] DEBUG - [Req#e] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
-Dec 29, 2025 00:24:49.505 [132987210259256] DEBUG - [Req#e/HCl#8] HTTP requesting GET http://127.0.0.1:39327/:/plugins/com.plexapp.system/resourceHashes
-Dec 29, 2025 00:24:50.044 [132987205688120] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.5s) 404 response from GET http://127.0.0.1:39327/:/plugins/com.plexapp.system/resourceHashes
-Dec 29, 2025 00:24:50.044 [132987210259256] DEBUG - [Req#e] [com.plexapp.system] HTTP reply status 404, with 0 bytes of content.
-Dec 29, 2025 00:24:50.044 [132987222014776] DEBUG - Completed: [127.0.0.1:39076] 404 GET /:/plugins/com.plexapp.system/resourceHashes (3 live) #e GZIP 539ms 261 bytes
-Dec 29, 2025 00:24:50.059 [132987207797560] DEBUG - Request: [127.0.0.1:39090 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (4 live) #10 GZIP Token ()
-Dec 29, 2025 00:24:50.060 [132987210259256] DEBUG - Request: [127.0.0.1:39100 (Loopback)] GET / (4 live) #12 GZIP Token ()
-Dec 29, 2025 00:24:50.060 [132987207797560] DEBUG - [Req#10] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
-Dec 29, 2025 00:24:50.060 [132987207797560] DEBUG - [Req#10/HCl#9] HTTP requesting GET http://127.0.0.1:39327/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
-Dec 29, 2025 00:24:50.061 [132987224124216] DEBUG - Completed: [127.0.0.1:39100] 200 GET / (4 live) #12 GZIP 1ms 2583 bytes
-Dec 29, 2025 00:24:50.065 [132987205688120] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:39327/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
-Dec 29, 2025 00:24:50.066 [132987207797560] DEBUG - [Req#10] [com.plexapp.system] HTTP reply status 200, with 516 bytes of content.
-Dec 29, 2025 00:24:50.066 [132987224124216] DEBUG - Completed: [127.0.0.1:39090] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #10 GZIP 6ms 746 bytes
-Dec 29, 2025 00:24:50.603 [132987210259256] DEBUG - Request: [127.0.0.1:39108 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) #13 GZIP Token ()
-Dec 29, 2025 00:24:50.603 [132987210259256] DEBUG - [Req#13] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
-Dec 29, 2025 00:24:50.603 [132987210259256] DEBUG - [Req#13/HCl#a] HTTP requesting GET http://127.0.0.1:39327/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
-Dec 29, 2025 00:24:50.612 [132987205688120] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:39327/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
-Dec 29, 2025 00:24:50.612 [132987210259256] DEBUG - [Req#13] [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
-Dec 29, 2025 00:24:50.612 [132987224124216] DEBUG - Completed: [127.0.0.1:39108] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) #13 GZIP 9ms 415 bytes
-Dec 29, 2025 00:24:50.621 [132987150441272] DEBUG - [Req#d] Reading 148 bytes in the body, code is 200
-Dec 29, 2025 00:24:50.621 [132987150441272] DEBUG - [Req#d] [com.plexapp.agents.imdb] Plug-in running on port 42081.
-Dec 29, 2025 00:24:50.621 [132987150441272] DEBUG - [Req#d] Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
-Dec 29, 2025 00:24:50.621 [132987150441272] DEBUG - [Req#d] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
-Dec 29, 2025 00:24:50.621 [132987150441272] DEBUG - [Req#d/HCl#b] HTTP requesting GET http://127.0.0.1:42081/:/plugins/com.plexapp.agents.imdb/prefs
-Dec 29, 2025 00:24:50.658 [132987205688120] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:42081/:/plugins/com.plexapp.agents.imdb/prefs
-Dec 29, 2025 00:24:50.658 [132987150441272] DEBUG - [Req#d] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
-Dec 29, 2025 00:24:50.658 [132987150441272] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as 8e4bb1eaa56a7b4de1ab7ead2ef25bf054f936bd
-Dec 29, 2025 00:24:50.658 [132987150441272] DEBUG - IVA: Downloading trailer lists.
-Dec 29, 2025 00:24:50.761 [132987150441272] DEBUG - IVA: Downloaded 38 trailers for source 1.
-Dec 29, 2025 00:24:50.792 [132987150441272] DEBUG - IVA: Downloaded 28 trailers for source 2.
-Dec 29, 2025 00:24:51.441 [132987197250360] DEBUG - [MediaProviderManager] Refreshing media providers
-Dec 29, 2025 00:24:51.525 [132987197250360] DEBUG - [MediaProviderManager] we had 0 cloud providers online, we now have 1
-Dec 29, 2025 00:24:51.525 [132987197250360] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
-Dec 29, 2025 00:24:51.526 [132987197250360] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.movie' with source URI 'provider://tv.plex.provider.metadata'
-Dec 29, 2025 00:24:51.526 [132987197250360] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.series' with source URI 'provider://tv.plex.provider.metadata'
-Dec 29, 2025 00:24:51.526 [132987197250360] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.music' with source URI 'provider://tv.plex.provider.metadata'
-Dec 29, 2025 00:24:51.526 [132987197250360] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'org.musicbrainz.agents.music' with source URI 'provider://tv.plex.provider.metadata'
-Dec 29, 2025 00:24:51.526 [132987197250360] DEBUG - [MediaProviderManager] Media provider refresh complete
-Dec 29, 2025 00:24:53.434 [132987199359800] DEBUG - [NSB] NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (userver)
-Dec 29, 2025 00:24:53.434 [132987199359800] DEBUG - [NSB] Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
-Dec 29, 2025 00:24:53.434 [132987199359800] DEBUG - [NSB] [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
-Dec 29, 2025 00:24:53.434 [132987199359800] DEBUG - [NSB/HCl#13] HTTP requesting GET http://127.0.0.1:39327/system/notify/serverUpdated?host=127.0.0.1
-Dec 29, 2025 00:24:53.437 [132987210259256] DEBUG - Request: [127.0.0.1:53298 (Loopback)] GET /servers (3 live) #16 GZIP Token ()
-Dec 29, 2025 00:24:53.437 [132987224124216] DEBUG - Completed: [127.0.0.1:53298] 200 GET /servers (3 live) #16 GZIP 0ms 491 bytes
-Dec 29, 2025 00:24:53.440 [132987205688120] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:39327/system/notify/serverUpdated?host=127.0.0.1
-Dec 29, 2025 00:24:53.440 [132987199359800] DEBUG - [NSB] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
-Dec 29, 2025 00:24:53.814 [132987201469240] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
-Dec 29, 2025 00:24:53.814 [132987201469240] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=58, flags=0x11043, change=0x0
-Dec 29, 2025 00:24:53.814 [132987201469240] DEBUG - Network change.
-Dec 29, 2025 00:24:53.814 [132987201469240] DEBUG - NetworkInterface: Notified of network changed (force=0)
-Dec 29, 2025 00:24:53.815 [132987201469240] DEBUG - Network change notification but nothing changed.
-Dec 29, 2025 00:24:53.815 [132987201469240] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
-Dec 29, 2025 00:24:53.815 [132987201469240] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=57, flags=0x11043, change=0x0
-Dec 29, 2025 00:24:53.815 [132987201469240] DEBUG - Network change.
-Dec 29, 2025 00:24:53.815 [132987201469240] DEBUG - NetworkInterface: Notified of network changed (force=0)
-Dec 29, 2025 00:24:53.815 [132987201469240] DEBUG - Network change notification but nothing changed.
-Dec 29, 2025 00:24:54.326 [132987201469240] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
-Dec 29, 2025 00:24:54.326 [132987201469240] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=59, flags=0x11043, change=0x0
-Dec 29, 2025 00:24:54.326 [132987201469240] DEBUG - Network change.
-Dec 29, 2025 00:24:54.326 [132987201469240] DEBUG - NetworkInterface: Notified of network changed (force=0)
-Dec 29, 2025 00:24:54.327 [132987201469240] DEBUG - Network change notification but nothing changed.
-Dec 29, 2025 00:24:55.351 [132987201469240] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
-Dec 29, 2025 00:24:55.351 [132987201469240] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=60, flags=0x11043, change=0x0
-Dec 29, 2025 00:24:55.351 [132987201469240] DEBUG - Network change.
-Dec 29, 2025 00:24:55.351 [132987201469240] DEBUG - NetworkInterface: Notified of network changed (force=0)
-Dec 29, 2025 00:24:55.351 [132987201469240] DEBUG - Network change notification but nothing changed.
-Dec 29, 2025 00:24:55.863 [132987201469240] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
-Dec 29, 2025 00:24:55.863 [132987201469240] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=61, flags=0x11043, change=0x0
-Dec 29, 2025 00:24:55.863 [132987201469240] DEBUG - Network change.
-Dec 29, 2025 00:24:55.863 [132987201469240] DEBUG - NetworkInterface: Notified of network changed (force=0)
-Dec 29, 2025 00:24:55.864 [132987201469240] DEBUG - Network change notification but nothing changed.
-Dec 29, 2025 00:24:56.314 [132987161004856] DEBUG - DVR:Device: Discovering and refreshing all devices.
-Dec 29, 2025 00:24:56.314 [132987161004856] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
-Dec 29, 2025 00:24:56.315 [132987161004856] DEBUG - [HCl#14] HTTP requesting POST http://127.0.0.1:32600/devices/discover
-Dec 29, 2025 00:24:58.446 [132987231857464] DEBUG - Grabber: Cleaning up orphaned grabs.
-Dec 29, 2025 00:24:58.446 [132987231857464] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
-Dec 29, 2025 00:24:58.447 [132987231857464] DEBUG - Activity: registered new activity c88738ff-5319-46af-b47c-b6a1ab7ac4cb - "Processing subscriptions"
-Dec 29, 2025 00:24:58.447 [132987231857464] DEBUG - Subscription: Scheduling subscriptions.
-Dec 29, 2025 00:24:58.448 [132987231857464] DEBUG - Subscription: Initialized 0 schedulers.
-Dec 29, 2025 00:24:58.448 [132987231857464] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
-Dec 29, 2025 00:24:58.448 [132987231857464] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
-Dec 29, 2025 00:24:58.448 [132987231857464] DEBUG - Activity: Ended activity c88738ff-5319-46af-b47c-b6a1ab7ac4cb.
-Dec 29, 2025 00:24:58.448 [132987231857464] DEBUG - Subscription: There are 0 active grabs at the end.
-Dec 29, 2025 00:24:58.448 [132987231857464] DEBUG - Activity: Ended activity 35076f8e-0c61-48f9-a5b8-312e43c72aeb.
-Dec 29, 2025 00:24:58.448 [132987231857464] DEBUG - Subscription: Refreshed all content in 3 ms.
-Dec 29, 2025 00:24:58.768 [132987205688120] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (2.4s) 200 response from POST http://127.0.0.1:32600/devices/discover
-Dec 29, 2025 00:24:58.922 [132987199359800] DEBUG - [NSB/SSDP] Parsing SSDP schema for http://192.168.0.1:52869/gatedesc.xml
-Dec 29, 2025 00:24:58.926 [132987205688120] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://192.168.0.1:52869/gatedesc.xml
-Dec 29, 2025 00:24:58.929 [132987199359800] DEBUG - [NSB/SSDP] found 3 SSDP devices via http://192.168.0.1:52869/gatedesc.xml
-Dec 29, 2025 00:24:58.929 [132987199359800] DEBUG - [NSB/SSDP] SSDP arrived: 192.168.0.1 (UPNP IGD)
-Dec 29, 2025 00:24:58.929 [132987199359800] DEBUG - [NSB/SSDP] SSDP arrived: 192.168.0.1 (UPNP IGD)
-Dec 29, 2025 00:24:58.929 [132987199359800] DEBUG - [NSB/SSDP] SSDP arrived: 192.168.0.1 (UPNP IGD)
-Dec 29, 2025 00:26:20.519 [132987234323256] DEBUG - Shutting down with signal 15 (Terminated)
-Dec 29, 2025 00:26:20.519 [132987234323256] DEBUG - Ordered to stop server.
-Dec 29, 2025 00:26:20.519 [132987239070352] DEBUG - Stopping server...
-Dec 29, 2025 00:26:20.519 [132987239070352] DEBUG - HttpServer: Stopping server.
-Dec 29, 2025 00:26:20.519 [132987184593720] DEBUG - TranscodeJobManager: [Running] onServerShutdown
-Dec 29, 2025 00:26:20.519 [132987184593720] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
-Dec 29, 2025 00:26:20.519 [132987231857464] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
-Dec 29, 2025 00:26:20.519 [132987239070352] DEBUG - Server stopped.
-Dec 29, 2025 00:26:20.519 [132987239070352] DEBUG - NetworkService: Stopping advertisement.
-Dec 29, 2025 00:26:20.519 [132987199359800] ERROR - Network Service: Error in advertiser handle read: 125 (Operation canceled) socket=67
-Dec 29, 2025 00:26:20.519 [132987239070352] DEBUG - Killing plug-ins.
-Dec 29, 2025 00:26:20.533 [132987239070352] DEBUG - [com.plexapp.agents.imdb] Killing.
-Dec 29, 2025 00:26:20.537 [132987234323256] WARN - JobManager: Could not find job for handle 302
-Dec 29, 2025 00:26:20.537 [132987239070352] DEBUG - [com.plexapp.system] Killing.
-Dec 29, 2025 00:26:20.540 [132987234323256] WARN - JobManager: Could not find job for handle 198
-Dec 29, 2025 00:26:20.542 [132987239070352] DEBUG - ChildProcessMonitor: Waiting for Plex Tuner Service to exit.
-Dec 29, 2025 00:26:20.542 [132987239070352] DEBUG - [JobRunner] Signalling job ID 265 with 2
-Dec 29, 2025 00:26:20.562 [132987234323256] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 265 is 0 (success)
-Dec 29, 2025 00:26:20.562 [132987190922040] DEBUG - [ChildProcessMonitor] Plex Tuner Service exited.
-Dec 29, 2025 00:26:20.563 [132987239070352] DEBUG - Database: Shutting down.
-Dec 29, 2025 00:26:20.619 [132987199359800] INFO - Network Service: Abandoning advertise socket, it was closed.
-Dec 29, 2025 00:26:20.740 [132987239070352] DEBUG - Database: Shutting down.
+Dec 29, 2025 12:56:31.855 [137811102677816] INFO - Plex Media Server v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 debian - GMT -03:00
+Dec 29, 2025 12:56:31.855 [137811102677816] INFO - Linux version: 6.8.0-90-generic, language: en-US
+Dec 29, 2025 12:56:31.855 [137811102677816] INFO - Processor: 8-core Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+Dec 29, 2025 12:56:31.855 [137811102677816] INFO - Compiler is - Clang 11.0.1 (https://plex.tv 9b997da8e5b47bdb4a9425b3a3b290be393b4b1f)
+Dec 29, 2025 12:56:31.855 [137811102677816] INFO - /usr/lib/plexmediaserver/Plex Media Server
+Dec 29, 2025 12:56:31.856 [137811105221264] DEBUG - BPQ: [Idle] -> [Starting]
+Dec 29, 2025 12:56:31.857 [137811105221264] DEBUG - FeatureManager: Using cached data for features list
+Dec 29, 2025 12:56:31.861 [137811105221264] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Dec 29, 2025 12:56:31.861 [137811105221264] DEBUG - Relay: read 0 cached entries from hosts file
+Dec 29, 2025 12:56:31.861 [137811105221264] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Dec 29, 2025 12:56:31.906 [137811105221264] DEBUG - MyPlex: no cached data to load for request for https://plex.tv/api/v2/server/users/features
+Dec 29, 2025 12:56:31.965 [137811105221264] DEBUG - HttpServer: Listening on IPv6 as well as IPv4.
+Dec 29, 2025 12:56:31.965 [137811105221264] DEBUG - HttpServer: Listening on port 32400.
+Dec 29, 2025 12:56:31.965 [137811105221264] DEBUG - HttpServer: Listening on port 32401.
+Dec 29, 2025 12:56:31.965 [137811105221264] DEBUG - Running server...
+Dec 29, 2025 12:56:31.965 [137811084946232] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+Dec 29, 2025 12:56:31.966 [137811105221264] INFO - Running migrations. (EPG 0)
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 0.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 1.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 2.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 3.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 4.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 5.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 6.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 7.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 8.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 9.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 10.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 11.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 12.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 13.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 14.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 15.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 16.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 17.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 18.
+Dec 29, 2025 12:56:31.967 [137811105221264] DEBUG - Captured session 19.
+Dec 29, 2025 12:56:31.970 [137811105221264] DEBUG - ChangestampAllocator: initialized to 0
+Dec 29, 2025 12:56:31.970 [137811105221264] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.39.4, threadsafe=1
+Dec 29, 2025 12:56:31.974 [137811105221264] INFO - Running migrations. (EPG 0)
+Dec 29, 2025 12:56:31.975 [137811105221264] DEBUG - Captured session 0.
+Dec 29, 2025 12:56:31.975 [137811105221264] DEBUG - Captured session 1.
+Dec 29, 2025 12:56:32.415 [137811098008376] DEBUG - Grabber: Cleaning up orphaned grabs.
+Dec 29, 2025 12:56:32.415 [137811098008376] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Dec 29, 2025 12:56:32.416 [137811105221264] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+Dec 29, 2025 12:56:32.416 [137811105221264] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Dec 29, 2025 12:56:32.416 [137811098008376] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Dec 29, 2025 12:56:32.417 [137811105221264] DEBUG - Opening 1 database sessions to library (), SQLite 3.39.4, threadsafe=1
+Dec 29, 2025 12:56:32.418 [137811080809272] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c" changed: -1 => 2025-12-22 06:37:22 (1766396242).
+Dec 29, 2025 12:56:32.418 [137811080809272] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2025-12-28 20:32:23 (1766964743).
+Dec 29, 2025 12:56:32.418 [137811080809272] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c"
+Dec 29, 2025 12:56:32.420 [137811080809272] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+Dec 29, 2025 12:56:32.420 [137811080809272] DEBUG - PluginRepository::setStartState: 1, startingSystem
+Dec 29, 2025 12:56:32.420 [137811080809272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/System.bundle.
+Dec 29, 2025 12:56:32.421 [137811080809272] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+Dec 29, 2025 12:56:32.422 [137811080809272] DEBUG - Starting file watcher for com.plexapp.system
+Dec 29, 2025 12:56:32.422 [137811080809272] DEBUG - Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+Dec 29, 2025 12:56:32.422 [137811080809272] DEBUG - Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+Dec 29, 2025 12:56:32.423 [137811080809272] DEBUG - Spawned plug-in com.plexapp.system with PID 198
+Dec 29, 2025 12:56:32.423 [137811080809272] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+Dec 29, 2025 12:56:32.707 [137811090275128] DEBUG - Request: didn't get any data from [::ffff:127.0.0.1]:59994: End of file
+Dec 29, 2025 12:56:33.854 [137811098008376] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader "--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.42.2.10156-f737b826c" --version=1.42.2.10156-f737b826c --platform=Linux --platformVersion=6.8.0-90-generic --serverUuid=6824e981caa73ca305a0f0d7debf19a40b0c2da5 --userId=NOUSERID --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --vendor=Docker --model=x86_64 "--device=Docker Container (LinuxServer.io)"
+Dec 29, 2025 12:56:33.945 [137811098008376] DEBUG - [JobRunner] Jobs: Starting child process with pid 217
+Dec 29, 2025 12:56:34.205 [137811100478264] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 217 is 0 (success)
+Dec 29, 2025 12:56:35.416 [137811098008376] DEBUG - [MediaProviderManager] Refreshing media providers
+Dec 29, 2025 12:56:35.575 [137811098008376] DEBUG - [MediaProviderManager] we had 0 cloud providers online, we now have 1
+Dec 29, 2025 12:56:35.575 [137811098008376] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Dec 29, 2025 12:56:35.575 [137811098008376] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.movie' with source URI 'provider://tv.plex.provider.metadata'
+Dec 29, 2025 12:56:35.575 [137811098008376] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.series' with source URI 'provider://tv.plex.provider.metadata'
+Dec 29, 2025 12:56:35.575 [137811098008376] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.music' with source URI 'provider://tv.plex.provider.metadata'
+Dec 29, 2025 12:56:35.575 [137811098008376] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'org.musicbrainz.agents.music' with source URI 'provider://tv.plex.provider.metadata'
+Dec 29, 2025 12:56:35.575 [137811098008376] DEBUG - [MediaProviderManager] Media provider refresh complete
+Dec 29, 2025 12:56:41.070 [137811070073656] DEBUG - Request: [127.0.0.1:60006 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #3 GZIP Token ()
+Dec 29, 2025 12:56:41.070 [137811090275128] DEBUG - Completed: [127.0.0.1:60006] 503 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (4 live) #3 GZIP 0ms 436 bytes
+Dec 29, 2025 12:56:41.070 [137811070073656] DEBUG - Request: [127.0.0.1:60010 (Loopback)] GET / (4 live) #4 GZIP Token ()
+Dec 29, 2025 12:56:41.070 [137811090275128] DEBUG - Completed: [127.0.0.1:60010] 503 GET / (3 live) #4 GZIP 0ms 436 bytes
+Dec 29, 2025 12:56:41.940 [137811070073656] DEBUG - Request: [127.0.0.1:60026 (Loopback)] GET /servers (3 live) #5 GZIP Token ()
+Dec 29, 2025 12:56:41.941 [137811090275128] DEBUG - Completed: [127.0.0.1:60026] 503 GET /servers (3 live) #5 GZIP 0ms 436 bytes
+Dec 29, 2025 12:56:41.954 [137811080809272] DEBUG - Reading 486 bytes in the body, code is 200
+Dec 29, 2025 12:56:41.954 [137811080809272] DEBUG - [com.plexapp.system] Plug-in running on port 40907.
+Dec 29, 2025 12:56:41.954 [137811080809272] DEBUG -  * Plug-in handles prefix: /system
+Dec 29, 2025 12:56:41.954 [137811080809272] DEBUG -  * Plug-in handles prefix: /player
+Dec 29, 2025 12:56:41.954 [137811080809272] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+Dec 29, 2025 12:56:41.954 [137811080809272] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+Dec 29, 2025 12:56:41.954 [137811080809272] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+Dec 29, 2025 12:56:41.954 [137811080809272] DEBUG - Updating the list of agents known by the system.
+Dec 29, 2025 12:56:41.954 [137811080809272] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+Dec 29, 2025 12:56:41.954 [137811080809272] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:40907/system/agents
+Dec 29, 2025 12:56:41.955 [137811105221264] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+Dec 29, 2025 12:56:41.957 [137811105221264] DEBUG - Transcoder: Cleaning old transcode directories.
+Dec 29, 2025 12:56:41.957 [137811105221264] DEBUG - MyPlex: stop public ip check and mapping - current mapped state: 'Unknown'.
+Dec 29, 2025 12:56:41.958 [137811105221264] DEBUG - NetworkInterface: Starting watch thread.
+Dec 29, 2025 12:56:41.958 [137811105221264] DEBUG - Network change.
+Dec 29, 2025 12:56:41.958 [137811105221264] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:41.958 [137811065740088] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - Detected primary interface: 192.168.0.100
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - Network interfaces:
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG -  * 2 enp1s0 (192.168.0.100) (64-1C-67-9D-F4-95) (loopback: 0)
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG -  * 5 docker0 (172.17.0.1) (72-D4-F2-0A-81-5A) (loopback: 0)
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG -  * 19 br-b333bbf232fd (172.18.0.1) (46-04-37-53-9B-1C) (loopback: 0)
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG -  * 2 enp1s0 (2804:14d:7834:8046:661c:67ff:fe9d:f495) (64-1C-67-9D-F4-95) (loopback: 0)
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - Creating NetworkServices singleton.
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkServices: Initializing...
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Creating new service.
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Quick dispatch of network change.
+Dec 29, 2025 12:56:41.959 [137811063630648] DEBUG - Network change for advertiser.
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Creating new service.
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Quick dispatch of network change.
+Dec 29, 2025 12:56:41.959 [137811063630648] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Creating new service.
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Quick dispatch of network change.
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Creating new service.
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Quick dispatch of network change.
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Creating new service.
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Quick dispatch of network change.
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Creating new service.
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Dec 29, 2025 12:56:41.959 [137811105221264] DEBUG - NetworkService: Quick dispatch of network change.
+Dec 29, 2025 12:56:41.959 [137811063630648] DEBUG - Network change for advertiser.
+Dec 29, 2025 12:56:41.959 [137811063630648] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
+Dec 29, 2025 12:56:41.959 [137811063630648] DEBUG - Network change for advertiser.
+Dec 29, 2025 12:56:41.959 [137811063630648] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
+Dec 29, 2025 12:56:41.959 [137811063630648] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Dec 29, 2025 12:56:41.959 [137811063630648] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+Dec 29, 2025 12:56:41.959 [137811063630648] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Dec 29, 2025 12:56:41.959 [137811063630648] DEBUG - NetworkService: Browsing on interface 192.168.0.100 on broadcast address 192.168.0.255 (index: 1)
+Dec 29, 2025 12:56:41.959 [137811063630648] DEBUG - NetworkService: Browsing on interface 172.17.0.1 on broadcast address 172.17.255.255 (index: 2)
+Dec 29, 2025 12:56:41.959 [137811063630648] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 3)
+Dec 29, 2025 12:56:41.960 [137811063630648] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
+Dec 29, 2025 12:56:41.960 [137811063630648] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Dec 29, 2025 12:56:41.960 [137811063630648] DEBUG - NetworkService: Browsing on interface 192.168.0.100 on broadcast address 192.168.0.255 (index: 1)
+Dec 29, 2025 12:56:41.960 [137811063630648] DEBUG - NetworkService: Browsing on interface 172.17.0.1 on broadcast address 172.17.255.255 (index: 2)
+Dec 29, 2025 12:56:41.960 [137811063630648] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 3)
+Dec 29, 2025 12:56:41.960 [137811063630648] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Dec 29, 2025 12:56:41.960 [137811063630648] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+Dec 29, 2025 12:56:41.960 [137811063630648] DEBUG - NetworkService: Browsing on interface 192.168.0.100 on broadcast address 239.255.255.250 (index: 0)
+Dec 29, 2025 12:56:41.960 [137811063630648] DEBUG - NetworkService: Browsing on interface 172.17.0.1 on broadcast address 239.255.255.250 (index: 1)
+Dec 29, 2025 12:56:41.960 [137811063630648] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 2)
+Dec 29, 2025 12:56:41.961 [137811057302328] DEBUG - [ChildProcessMonitor] Plex Tuner Service starting.
+Dec 29, 2025 12:56:41.961 [137811061521208] DEBUG - [DatabaseFixups] Running fix-ups.
+Dec 29, 2025 12:56:41.961 [137811057302328] DEBUG - [ChildProcessMonitor/JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Tuner Service" /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.42.2.10156-f737b826c 32600
+Dec 29, 2025 12:56:41.961 [137811061521208] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupRetroGames] Executing fixup
+Dec 29, 2025 12:56:41.961 [137811061521208] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupRetroGames] Fixup completed
+Dec 29, 2025 12:56:41.961 [137811061521208] DEBUG - [DatabaseFixups/39DatabaseFixupsEnsureLibrarySectionUuids] Executing fixup
+Dec 29, 2025 12:56:41.961 [137811059411768] DEBUG - [HCl#4] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
+Dec 29, 2025 12:56:41.961 [137811055192888] DEBUG - [HCl#5] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+Dec 29, 2025 12:56:41.961 [137811057302328] DEBUG - [ChildProcessMonitor/JobRunner] Jobs: Starting child process with pid 257
+Dec 29, 2025 12:56:41.962 [137811053083448] DEBUG - [HCl#6] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=
+Dec 29, 2025 12:56:41.962 [137811105221264] DEBUG - Waiting for server condition to be signaled.
+Dec 29, 2025 12:56:41.962 [137811042478904] DEBUG - DVR: Starting up.
+Dec 29, 2025 12:56:41.962 [137811061521208] DEBUG - [DatabaseFixups/39DatabaseFixupsEnsureLibrarySectionUuids] Fixup completed
+Dec 29, 2025 12:56:41.962 [137811061521208] DEBUG - [DatabaseFixups/38DatabaseFixupsEnsureMetadataItemHashes] Executing fixup
+Dec 29, 2025 12:56:41.962 [137811061521208] DEBUG - [DatabaseFixups/38DatabaseFixupsEnsureMetadataItemHashes] Fixup completed
+Dec 29, 2025 12:56:41.962 [137811061521208] DEBUG - [DatabaseFixups/39DatabaseFixupsSetDefaultAccountLanguage] Executing fixup
+Dec 29, 2025 12:56:41.962 [137811061521208] DEBUG - [DatabaseFixups/39DatabaseFixupsSetDefaultAccountLanguage] Fixup completed
+Dec 29, 2025 12:56:41.963 [137811061521208] DEBUG - [DatabaseFixups/52DatabaseFixupsCreateDefaultMediaProcessingTargetTags] Executing fixup
+Dec 29, 2025 12:56:41.963 [137811040369464] DEBUG - MyPlex: Sending unclaimed device connections
+Dec 29, 2025 12:56:41.963 [137811042478904] DEBUG - Activity: registered new activity 655ad14f-d0db-44c3-85e1-23a3e480d575 - "Processing subscriptions"
+Dec 29, 2025 12:56:41.963 [137811040369464] DEBUG - [HCl#7] HTTP requesting POST https://plex.tv/devices/6824e981caa73ca305a0f0d7debf19a40b0c2da5/unclaimed?Connection[][uri]=http://192.168.0.100:32400&Connection[][uri]=http://172.17.0.1:32400&Connection[][uri]=http://172.18.0.1:32400
+Dec 29, 2025 12:56:41.964 [137811061521208] DEBUG - [DatabaseFixups/52DatabaseFixupsCreateDefaultMediaProcessingTargetTags] Fixup completed
+Dec 29, 2025 12:56:41.964 [137811061521208] DEBUG - [DatabaseFixups/43DatabaseFixupsUpdateAutomaticLibraryFolders] Executing fixup
+Dec 29, 2025 12:56:41.964 [137811061521208] DEBUG - [DatabaseFixups/43DatabaseFixupsUpdateAutomaticLibraryFolders] Fixup completed
+Dec 29, 2025 12:56:41.964 [137811061521208] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Executing fixup
+Dec 29, 2025 12:56:41.964 [137811061521208] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Fixup completed
+Dec 29, 2025 12:56:41.964 [137811061521208] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupActivities] Executing fixup
+Dec 29, 2025 12:56:41.964 [137811061521208] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupActivities] Fixup completed
+Dec 29, 2025 12:56:41.964 [137811061521208] DEBUG - [DatabaseFixups/35DatabaseFixupsConsolidatePeopleTags] Executing fixup
+Dec 29, 2025 12:56:41.964 [137811061521208] DEBUG - [DatabaseFixups/35DatabaseFixupsConsolidatePeopleTags] Fixup completed
+Dec 29, 2025 12:56:41.964 [137811061521208] DEBUG - [DatabaseFixups/54DatabaseFixupsGarbageCollectTransientMetadataRelations] Executing fixup
+Dec 29, 2025 12:56:41.965 [137811061521208] DEBUG - [DatabaseFixups/54DatabaseFixupsGarbageCollectTransientMetadataRelations] Fixup completed
+Dec 29, 2025 12:56:41.965 [137811061521208] DEBUG - [DatabaseFixups/48DatabaseFixupsResetCorruptedMetadataItemClusters] Executing fixup
+Dec 29, 2025 12:56:41.965 [137811061521208] DEBUG - [DatabaseFixups/48DatabaseFixupsResetCorruptedMetadataItemClusters] Fixup completed
+Dec 29, 2025 12:56:41.965 [137811061521208] DEBUG - [DatabaseFixups] Running database fix-ups completed in 0.0 seconds.
+Dec 29, 2025 12:56:42.017 [137811076434744] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.1s) 200 response from GET http://127.0.0.1:40907/system/agents
+Dec 29, 2025 12:56:42.017 [137811080809272] DEBUG - [com.plexapp.system] HTTP reply status 200, with 8986 bytes of content.
+Dec 29, 2025 12:56:42.019 [137811080809272] DEBUG - The system knows about 12 agents.
+Dec 29, 2025 12:56:42.019 [137811029715768] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/LyricFind.bundle.
+Dec 29, 2025 12:56:42.019 [137811025496888] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/LocalMedia.bundle.
+Dec 29, 2025 12:56:42.019 [137811027606328] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/PlexMovie.bundle.
+Dec 29, 2025 12:56:42.020 [137811080809272] DEBUG - Waiting for 16 plug-ins to finish starting.
+Dec 29, 2025 12:56:42.021 [137811025496888] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+Dec 29, 2025 12:56:42.021 [137811025496888] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/WebClient.bundle.
+Dec 29, 2025 12:56:42.023 [137811029715768] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+Dec 29, 2025 12:56:42.023 [137811029715768] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Musicbrainz.bundle.
+Dec 29, 2025 12:56:42.023 [137811027606328] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+Dec 29, 2025 12:56:42.023 [137811027606328] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Fanart-TV.bundle.
+Dec 29, 2025 12:56:42.026 [137811027606328] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+Dec 29, 2025 12:56:42.026 [137811027606328] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/TheTVDB.bundle.
+Dec 29, 2025 12:56:42.026 [137811025496888] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Scanners.bundle.
+Dec 29, 2025 12:56:42.027 [137811029715768] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
+Dec 29, 2025 12:56:42.027 [137811029715768] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/PersonalMedia.bundle.
+Dec 29, 2025 12:56:42.029 [137811027606328] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+Dec 29, 2025 12:56:42.029 [137811027606328] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Framework.bundle.
+Dec 29, 2025 12:56:42.029 [137811025496888] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/HTbackdrops.bundle.
+Dec 29, 2025 12:56:42.030 [137811029715768] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+Dec 29, 2025 12:56:42.030 [137811029715768] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Media-Flags.bundle.
+Dec 29, 2025 12:56:42.031 [137811027606328] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/PlexThemeMusic.bundle.
+Dec 29, 2025 12:56:42.031 [137811025496888] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+Dec 29, 2025 12:56:42.032 [137811029715768] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/TheMovieDB.bundle.
+Dec 29, 2025 12:56:42.032 [137811025496888] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/LastFM.bundle.
+Dec 29, 2025 12:56:42.034 [137811029715768] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+Dec 29, 2025 12:56:42.034 [137811025496888] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+Dec 29, 2025 12:56:42.034 [137811027606328] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+Dec 29, 2025 12:56:42.034 [137811029715768] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/MoviePosterDB.bundle.
+Dec 29, 2025 12:56:42.035 [137811029715768] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+Dec 29, 2025 12:56:42.035 [137811080809272] DEBUG - Starting scheduled updates, every 3600 seconds
+Dec 29, 2025 12:56:42.035 [137811080809272] INFO - LibraryUpdateManager path watching is disabled
+Dec 29, 2025 12:56:42.035 [137811080809272] DEBUG - Done waiting for all plug-ins to start.
+Dec 29, 2025 12:56:42.035 [137811080809272] DEBUG - PluginRepository::setStartState: 3, complete
+Dec 29, 2025 12:56:42.035 [137811014949688] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale hu_HU
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale ja_JP
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale it
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale ar
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale uk
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale nl_BE
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale da
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale zh_CN
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale lt
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale fi
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale pl
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale ru
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale af
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale no
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale sv
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale ro
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale cs_CZ
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale es
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale sl
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale ko
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale sk
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale sr
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale en
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale nl
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale pt
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale et_EE
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale de
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale pt_BR
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale hu
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale he
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale hr_HR
+Dec 29, 2025 12:56:42.036 [137811014949688] DEBUG - Translator: Found locale fr
+Dec 29, 2025 12:56:42.049 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1472, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:42.049 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=58, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:42.049 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:42.049 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:42.050 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:42.050 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:42.050 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=58, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:42.050 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:42.050 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:42.050 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:42.050 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:42.050 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=58, flags=0x1002, change=0x100
+Dec 29, 2025 12:56:42.050 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:42.050 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:42.051 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:42.051 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:42.051 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=58, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:42.051 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:42.051 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:42.052 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:42.052 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:42.052 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=58, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:42.052 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:42.052 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:42.054 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:42.055 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:42.055 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=58, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:42.055 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:42.055 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:42.056 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:42.056 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:42.056 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=58, flags=0x1003, change=0x1
+Dec 29, 2025 12:56:42.056 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:42.056 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:42.056 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:42.056 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:42.056 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=58, flags=0x1003, change=0x0
+Dec 29, 2025 12:56:42.056 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:42.056 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:42.057 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:42.083 [137811014949688] DEBUG - [Req#d] Starting file watcher for com.plexapp.agents.imdb
+Dec 29, 2025 12:56:42.083 [137811014949688] DEBUG - [Req#d] Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+Dec 29, 2025 12:56:42.083 [137811014949688] DEBUG - [Req#d] Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+Dec 29, 2025 12:56:42.084 [137811014949688] DEBUG - [Req#d] Spawned plug-in com.plexapp.agents.imdb with PID 294
+Dec 29, 2025 12:56:42.084 [137811014949688] DEBUG - [Req#d] [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+Dec 29, 2025 12:56:42.339 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:42.339 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=58, flags=0x11043, change=0x0
+Dec 29, 2025 12:56:42.339 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:42.339 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:42.340 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:42.340 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:42.340 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=58, flags=0x11043, change=0x0
+Dec 29, 2025 12:56:42.340 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:42.340 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:42.340 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:42.340 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:42.340 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=58, flags=0x11043, change=0x0
+Dec 29, 2025 12:56:42.340 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:42.340 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:42.341 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:42.385 [137811076434744] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.4s) 200 response from POST https://plex.tv/devices/6824e981caa73ca305a0f0d7debf19a40b0c2da5/unclaimed?Connection[][uri]=http://192.168.0.100:32400&Connection[][uri]=http://172.17.0.1:32400&Connection[][uri]=http://172.18.0.1:32400
+Dec 29, 2025 12:56:42.405 [137811076434744] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.4s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
+Dec 29, 2025 12:56:42.413 [137811076434744] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.5s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+Dec 29, 2025 12:56:42.416 [137811050974008] DEBUG - DVR:Device: Discovering and refreshing all devices.
+Dec 29, 2025 12:56:42.416 [137811050974008] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
+Dec 29, 2025 12:56:42.416 [137811050974008] DEBUG - [HCl#8] HTTP requesting POST http://127.0.0.1:32600/devices/discover
+Dec 29, 2025 12:56:42.465 [137811076434744] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.5s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=
+Dec 29, 2025 12:56:42.466 [137811053083448] DEBUG - [HCl#9] HTTP requesting GET https://plex.tv/api/v2/server/users/features
+Dec 29, 2025 12:56:42.603 [137811076434744] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.1s) 401 response from GET https://plex.tv/api/v2/server/users/features (reused)
+Dec 29, 2025 12:56:42.603 [137811072183096] ERROR - MyPlex: Error 401 requesting JSON from: https://plex.tv/api/v2/server/users/features
+Dec 29, 2025 12:56:42.603 [137811053083448] WARN - FeatureManager: Couldn't get features. Trying again soon.
+Dec 29, 2025 12:56:42.951 [137811070073656] DEBUG - Request: [127.0.0.1:60126 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) #9 GZIP Token ()
+Dec 29, 2025 12:56:42.952 [137811070073656] DEBUG - [Req#9] [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+Dec 29, 2025 12:56:42.952 [137811070073656] DEBUG - [Req#9/HCl#a] HTTP requesting GET http://127.0.0.1:40907/system/messaging/clear_events/com.plexapp.agents.imdb
+Dec 29, 2025 12:56:42.968 [137811076434744] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:40907/system/messaging/clear_events/com.plexapp.agents.imdb (reused)
+Dec 29, 2025 12:56:42.968 [137811070073656] DEBUG - [Req#9] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Dec 29, 2025 12:56:42.968 [137811090275128] DEBUG - Completed: [127.0.0.1:60126] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) #9 GZIP 17ms 280 bytes
+Dec 29, 2025 12:56:43.076 [137811070073656] DEBUG - Request: [127.0.0.1:60136 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (3 live) #e GZIP Token ()
+Dec 29, 2025 12:56:43.076 [137811070073656] DEBUG - [Req#e] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+Dec 29, 2025 12:56:43.076 [137811070073656] DEBUG - [Req#e/HCl#b] HTTP requesting GET http://127.0.0.1:40907/:/plugins/com.plexapp.system/resourceHashes
+Dec 29, 2025 12:56:43.380 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:43.380 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=58, flags=0x1003, change=0x0
+Dec 29, 2025 12:56:43.380 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:43.380 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:43.381 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:43.381 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:43.381 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=58, flags=0x1003, change=0x0
+Dec 29, 2025 12:56:43.381 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:43.381 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:43.416 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:43.416 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:43.416 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=59, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:43.416 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:43.416 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:43.416 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:43.455 [137811076434744] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.4s) 404 response from GET http://127.0.0.1:40907/:/plugins/com.plexapp.system/resourceHashes
+Dec 29, 2025 12:56:43.455 [137811070073656] DEBUG - [Req#e] [com.plexapp.system] HTTP reply status 404, with 0 bytes of content.
+Dec 29, 2025 12:56:43.455 [137811090275128] DEBUG - Completed: [127.0.0.1:60136] 404 GET /:/plugins/com.plexapp.system/resourceHashes (3 live) #e GZIP 378ms 261 bytes
+Dec 29, 2025 12:56:43.467 [137811070073656] DEBUG - Request: [127.0.0.1:60146 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #10 GZIP Token ()
+Dec 29, 2025 12:56:43.467 [137811070073656] DEBUG - [Req#10] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Dec 29, 2025 12:56:43.467 [137811070073656] DEBUG - [Req#10/HCl#c] HTTP requesting GET http://127.0.0.1:40907/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Dec 29, 2025 12:56:43.468 [137811036134200] DEBUG - Request: [127.0.0.1:60158 (Loopback)] GET / (4 live) #12 GZIP Token ()
+Dec 29, 2025 12:56:43.470 [137811090275128] DEBUG - Completed: [127.0.0.1:60158] 200 GET / (4 live) #12 GZIP 1ms 2583 bytes
+Dec 29, 2025 12:56:43.471 [137811076434744] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:40907/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Dec 29, 2025 12:56:43.471 [137811070073656] DEBUG - [Req#10] [com.plexapp.system] HTTP reply status 200, with 516 bytes of content.
+Dec 29, 2025 12:56:43.472 [137811090275128] DEBUG - Completed: [127.0.0.1:60146] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #10 GZIP 4ms 746 bytes
+Dec 29, 2025 12:56:43.667 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:43.667 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=58, flags=0x1002, change=0x41
+Dec 29, 2025 12:56:43.667 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:43.667 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:43.680 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:43.680 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:43.680 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=58, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:43.680 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:43.681 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:43.681 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:43.681 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+Dec 29, 2025 12:56:43.681 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=59, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:43.681 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:43.681 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=58, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:43.681 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:43.681 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:43.682 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:43.682 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+Dec 29, 2025 12:56:43.682 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=58, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:43.682 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+Dec 29, 2025 12:56:43.682 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=58, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:44.172 [137811036134200] DEBUG - Request: [127.0.0.1:60172 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) #13 GZIP Token ()
+Dec 29, 2025 12:56:44.172 [137811036134200] DEBUG - [Req#13] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Dec 29, 2025 12:56:44.173 [137811036134200] DEBUG - [Req#13/HCl#d] HTTP requesting GET http://127.0.0.1:40907/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Dec 29, 2025 12:56:44.188 [137811076434744] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:40907/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Dec 29, 2025 12:56:44.188 [137811036134200] DEBUG - [Req#13] [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+Dec 29, 2025 12:56:44.189 [137811090275128] DEBUG - Completed: [127.0.0.1:60172] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) #13 GZIP 17ms 415 bytes
+Dec 29, 2025 12:56:44.254 [137811014949688] DEBUG - [Req#d] Reading 148 bytes in the body, code is 200
+Dec 29, 2025 12:56:44.254 [137811014949688] DEBUG - [Req#d] [com.plexapp.agents.imdb] Plug-in running on port 45143.
+Dec 29, 2025 12:56:44.255 [137811014949688] DEBUG - [Req#d] Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+Dec 29, 2025 12:56:44.256 [137811014949688] DEBUG - [Req#d] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+Dec 29, 2025 12:56:44.256 [137811014949688] DEBUG - [Req#d/HCl#e] HTTP requesting GET http://127.0.0.1:45143/:/plugins/com.plexapp.agents.imdb/prefs
+Dec 29, 2025 12:56:44.301 [137811076434744] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:45143/:/plugins/com.plexapp.agents.imdb/prefs
+Dec 29, 2025 12:56:44.301 [137811014949688] DEBUG - [Req#d] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+Dec 29, 2025 12:56:44.301 [137811014949688] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as 3b25bb38a613fe5bf182d36adf1a851892ebfd7b
+Dec 29, 2025 12:56:44.301 [137811014949688] DEBUG - IVA: Downloading trailer lists.
+Dec 29, 2025 12:56:44.396 [137811014949688] DEBUG - IVA: Downloaded 38 trailers for source 1.
+Dec 29, 2025 12:56:44.434 [137811014949688] DEBUG - IVA: Downloaded 28 trailers for source 2.
+Dec 29, 2025 12:56:44.845 [137811076434744] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (2.4s) 200 response from POST http://127.0.0.1:32600/devices/discover
+Dec 29, 2025 12:56:44.963 [137811021278008] DEBUG - [MediaProviderManager] Refreshing media providers
+Dec 29, 2025 12:56:44.988 [137811021278008] DEBUG - [MediaProviderManager] we had 1 cloud providers online, we now have 1
+Dec 29, 2025 12:56:44.988 [137811021278008] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Dec 29, 2025 12:56:44.988 [137811021278008] DEBUG - [MediaProviderManager] Media provider refresh complete
+Dec 29, 2025 12:56:45.371 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1472, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:45.371 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=60, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:45.371 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:45.371 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:45.372 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:45.372 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:45.372 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=60, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:45.372 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:45.372 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:45.372 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:45.372 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:45.372 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=60, flags=0x1002, change=0x100
+Dec 29, 2025 12:56:45.372 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:45.372 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:45.373 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:45.373 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:45.373 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=60, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:45.373 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:45.373 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:45.374 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:45.375 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:45.375 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=60, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:45.375 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:45.375 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:45.376 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:45.376 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:45.376 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=60, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:45.376 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:45.376 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:45.377 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:45.377 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:45.377 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=60, flags=0x1003, change=0x1
+Dec 29, 2025 12:56:45.377 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:45.377 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:45.378 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:45.378 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:45.378 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=60, flags=0x1003, change=0x0
+Dec 29, 2025 12:56:45.378 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:45.378 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:45.379 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:45.556 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:45.556 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=60, flags=0x11043, change=0x0
+Dec 29, 2025 12:56:45.556 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:45.556 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:45.557 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:45.557 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:45.557 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=60, flags=0x11043, change=0x0
+Dec 29, 2025 12:56:45.557 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:45.557 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:45.558 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:45.558 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:45.558 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=60, flags=0x11043, change=0x0
+Dec 29, 2025 12:56:45.558 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:45.558 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:45.558 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:46.566 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:46.566 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=60, flags=0x1003, change=0x0
+Dec 29, 2025 12:56:46.566 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:46.566 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:46.583 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:46.583 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:46.583 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=60, flags=0x1003, change=0x0
+Dec 29, 2025 12:56:46.583 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:46.583 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:46.584 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:46.584 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:46.584 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=61, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:46.584 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:46.584 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:46.584 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:46.754 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:46.754 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=60, flags=0x1002, change=0x41
+Dec 29, 2025 12:56:46.754 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:46.754 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=60, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=61, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=60, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=60, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+Dec 29, 2025 12:56:46.766 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=60, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:46.960 [137811063630648] DEBUG - [NSB] NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (userver)
+Dec 29, 2025 12:56:46.960 [137811063630648] DEBUG - [NSB] Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+Dec 29, 2025 12:56:46.960 [137811063630648] DEBUG - [NSB] [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+Dec 29, 2025 12:56:46.960 [137811063630648] DEBUG - [NSB/HCl#15] HTTP requesting GET http://127.0.0.1:40907/system/notify/serverUpdated?host=127.0.0.1
+Dec 29, 2025 12:56:46.971 [137811036134200] DEBUG - Request: [127.0.0.1:60180 (Loopback)] GET /servers (3 live) #16 GZIP Token ()
+Dec 29, 2025 12:56:46.972 [137811090275128] DEBUG - Completed: [127.0.0.1:60180] 200 GET /servers (3 live) #16 GZIP 1ms 491 bytes
+Dec 29, 2025 12:56:46.994 [137811076434744] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:40907/system/notify/serverUpdated?host=127.0.0.1
+Dec 29, 2025 12:56:46.994 [137811063630648] DEBUG - [NSB] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Dec 29, 2025 12:56:49.412 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1472, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:49.412 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=62, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:49.412 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:49.412 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:49.413 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:49.413 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:49.413 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=62, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:49.413 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:49.413 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:49.414 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:49.414 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:49.414 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=62, flags=0x1002, change=0x100
+Dec 29, 2025 12:56:49.414 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:49.414 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:49.415 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:49.415 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:49.415 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=62, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:49.415 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:49.415 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:49.415 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:49.416 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:49.416 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=62, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:49.416 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:49.416 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:49.417 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:49.417 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:49.417 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=62, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:49.417 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:49.417 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:49.417 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:49.418 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:49.418 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=62, flags=0x1003, change=0x1
+Dec 29, 2025 12:56:49.418 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:49.418 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:49.418 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:49.418 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:49.418 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=62, flags=0x1003, change=0x0
+Dec 29, 2025 12:56:49.418 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:49.418 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:49.418 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:49.666 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:49.666 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=62, flags=0x11043, change=0x0
+Dec 29, 2025 12:56:49.666 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:49.666 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:49.668 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:49.668 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:49.668 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=62, flags=0x11043, change=0x0
+Dec 29, 2025 12:56:49.668 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:49.668 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:49.670 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:49.670 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:49.670 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=62, flags=0x11043, change=0x0
+Dec 29, 2025 12:56:49.670 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:49.670 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:49.672 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:50.507 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:50.507 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=62, flags=0x1003, change=0x0
+Dec 29, 2025 12:56:50.507 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:50.507 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:50.536 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:50.536 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:50.536 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=62, flags=0x1003, change=0x0
+Dec 29, 2025 12:56:50.536 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:50.536 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:50.538 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:50.538 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:50.538 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=63, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:50.538 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:50.538 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:50.539 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:50.661 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:50.661 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=62, flags=0x1002, change=0x41
+Dec 29, 2025 12:56:50.661 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:50.661 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:50.678 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:50.678 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:50.678 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=62, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:50.678 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:50.678 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:50.680 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:50.680 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+Dec 29, 2025 12:56:50.680 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=63, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:50.680 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:50.680 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=62, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:50.680 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:50.680 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:50.681 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:50.681 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+Dec 29, 2025 12:56:50.681 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=62, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:50.681 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+Dec 29, 2025 12:56:50.681 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=62, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:51.965 [137811050974008] DEBUG - Grabber: Cleaning up orphaned grabs.
+Dec 29, 2025 12:56:51.965 [137811050974008] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Dec 29, 2025 12:56:51.966 [137811050974008] DEBUG - Activity: registered new activity fad5bbd1-7eab-4550-8560-5114aba2a03f - "Processing subscriptions"
+Dec 29, 2025 12:56:51.966 [137811050974008] DEBUG - Subscription: Scheduling subscriptions.
+Dec 29, 2025 12:56:51.966 [137811050974008] DEBUG - Subscription: Initialized 0 schedulers.
+Dec 29, 2025 12:56:51.966 [137811050974008] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+Dec 29, 2025 12:56:51.966 [137811050974008] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
+Dec 29, 2025 12:56:51.966 [137811050974008] DEBUG - Activity: Ended activity fad5bbd1-7eab-4550-8560-5114aba2a03f.
+Dec 29, 2025 12:56:51.967 [137811050974008] DEBUG - Subscription: There are 0 active grabs at the end.
+Dec 29, 2025 12:56:51.967 [137811050974008] DEBUG - Activity: Ended activity 655ad14f-d0db-44c3-85e1-23a3e480d575.
+Dec 29, 2025 12:56:51.967 [137811050974008] DEBUG - Subscription: Refreshed all content in 2 ms.
+Dec 29, 2025 12:56:53.742 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1472, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:53.742 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=64, flags=0x1002, change=0xffffffff
+Dec 29, 2025 12:56:53.742 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:53.742 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:53.742 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:53.742 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:53.742 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=64, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:53.742 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:53.742 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:53.743 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:53.743 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:53.743 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=64, flags=0x1002, change=0x100
+Dec 29, 2025 12:56:53.743 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:53.743 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:53.743 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:53.743 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:53.743 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=64, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:53.743 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:53.743 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:53.744 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:53.745 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:53.745 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=64, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:53.745 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:53.745 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:53.746 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:53.746 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:53.746 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=64, flags=0x1002, change=0x0
+Dec 29, 2025 12:56:53.746 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:53.746 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:53.746 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:53.746 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:53.746 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=64, flags=0x1003, change=0x1
+Dec 29, 2025 12:56:53.746 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:53.746 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:53.747 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:53.747 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:53.747 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=64, flags=0x1003, change=0x0
+Dec 29, 2025 12:56:53.747 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:53.747 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:53.747 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:53.951 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:53.951 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=64, flags=0x11043, change=0x0
+Dec 29, 2025 12:56:53.951 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:53.951 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:53.953 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:53.953 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:53.953 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=64, flags=0x11043, change=0x0
+Dec 29, 2025 12:56:53.953 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:53.953 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:53.955 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:56:53.955 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:56:53.955 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=64, flags=0x11043, change=0x0
+Dec 29, 2025 12:56:53.955 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:56:53.955 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:56:53.956 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:57:09.217 [137811065740088] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Dec 29, 2025 12:57:09.217 [137811065740088] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=64, flags=0x11043, change=0x0
+Dec 29, 2025 12:57:09.217 [137811065740088] DEBUG - Network change.
+Dec 29, 2025 12:57:09.217 [137811065740088] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Dec 29, 2025 12:57:09.219 [137811065740088] DEBUG - Network change notification but nothing changed.
+Dec 29, 2025 12:57:41.969 [137811063630648] DEBUG - [NSB/SSDP] Parsing SSDP schema for http://192.168.0.1:52869/gatedesc.xml
+Dec 29, 2025 12:57:41.974 [137811076434744] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.0s) 200 response from GET http://192.168.0.1:52869/gatedesc.xml
+Dec 29, 2025 12:57:41.978 [137811063630648] DEBUG - [NSB/SSDP] found 3 SSDP devices via http://192.168.0.1:52869/gatedesc.xml
+Dec 29, 2025 12:57:41.978 [137811063630648] DEBUG - [NSB/SSDP] SSDP arrived: 192.168.0.1 (UPNP IGD)
+Dec 29, 2025 12:57:41.978 [137811063630648] DEBUG - [NSB/SSDP] SSDP arrived: 192.168.0.1 (UPNP IGD)
+Dec 29, 2025 12:57:41.978 [137811063630648] DEBUG - [NSB/SSDP] SSDP arrived: 192.168.0.1 (UPNP IGD)
+Dec 29, 2025 12:57:47.693 [137811100478264] DEBUG - Shutting down with signal 15 (Terminated)
+Dec 29, 2025 12:57:47.693 [137811100478264] DEBUG - Ordered to stop server.
+Dec 29, 2025 12:57:47.693 [137811105221264] DEBUG - Stopping server...
+Dec 29, 2025 12:57:47.693 [137811105221264] DEBUG - HttpServer: Stopping server.
+Dec 29, 2025 12:57:47.693 [137811048864568] DEBUG - TranscodeJobManager: [Running] onServerShutdown
+Dec 29, 2025 12:57:47.693 [137811048864568] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
+Dec 29, 2025 12:57:47.693 [137811048864568] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
+Dec 29, 2025 12:57:47.693 [137811105221264] DEBUG - Server stopped.
+Dec 29, 2025 12:57:47.694 [137811105221264] DEBUG - NetworkService: Stopping advertisement.
+Dec 29, 2025 12:57:47.694 [137811105221264] DEBUG - Killing plug-ins.
+Dec 29, 2025 12:57:47.719 [137811105221264] DEBUG - [com.plexapp.agents.imdb] Killing.
+Dec 29, 2025 12:57:47.723 [137811100478264] WARN - JobManager: Could not find job for handle 294
+Dec 29, 2025 12:57:47.727 [137811105221264] DEBUG - [com.plexapp.system] Killing.
+Dec 29, 2025 12:57:47.731 [137811100478264] WARN - JobManager: Could not find job for handle 198
+Dec 29, 2025 12:57:47.736 [137811105221264] DEBUG - ChildProcessMonitor: Waiting for Plex Tuner Service to exit.
+Dec 29, 2025 12:57:47.736 [137811105221264] DEBUG - [JobRunner] Signalling job ID 257 with 2
+Dec 29, 2025 12:57:47.746 [137811100478264] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 257 is 0 (success)
+Dec 29, 2025 12:57:47.746 [137811057302328] DEBUG - [ChildProcessMonitor] Plex Tuner Service exited.
+Dec 29, 2025 12:57:47.746 [137811105221264] DEBUG - Database: Shutting down.
+Dec 29, 2025 12:57:48.094 [137811105221264] DEBUG - Database: Shutting down.

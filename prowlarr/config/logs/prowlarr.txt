@@ -2564,3 +2564,820 @@ error code: 522
 2025-12-29 12:34:47.6|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
 2025-12-29 12:34:47.8|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5070]
 2025-12-29 12:34:47.8|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045]
+2025-12-29 12:49:19.6|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-12-29 12:49:19.6|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020, 2040, 2060, 2030, 2045]
+2025-12-29 12:49:19.6|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-12-29 12:49:57.7|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-12-29 12:49:58.4|Info|ConsoleApp|Exiting main.
+2025-12-29 12:50:40.3|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 2.3.0.5236
+2025-12-29 12:50:40.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 12:50:40.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 12:50:40.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 12:50:41.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-12-29 12:50:41.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-12-29 12:50:41.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-12-29 12:50:41.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-12-29 12:50:41.2|Info|DatabaseEngineVersionCheck|SQLite 3.50.4
+2025-12-29 12:50:41.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0508754s
+2025-12-29 12:50:41.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-12-29 12:50:41.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0561597s
+2025-12-29 12:50:41.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-12-29 12:50:41.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-12-29 12:50:41.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-12-29 12:50:41.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-12-29 12:50:41.3|Info|DatabaseEngineVersionCheck|SQLite 3.50.4
+2025-12-29 12:50:41.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0057882s
+2025-12-29 12:50:41.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-12-29 12:50:41.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0063594s
+2025-12-29 12:50:41.7|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2025-12-29 12:50:42.2|Info|CommandExecutor|Starting 3 threads for tasks.
+2025-12-29 12:50:45.7|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-12-29 12:50:46.6|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-12-29 12:50:46.6|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-12-29 12:50:46.6|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2025-12-29 12:51:13.6|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-12-29 12:51:14.3|Info|ConsoleApp|Exiting main.
+2025-12-29 12:56:28.0|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 2.3.0.5236
+2025-12-29 12:56:28.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 12:56:28.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 12:56:28.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 12:56:28.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-12-29 12:56:28.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-12-29 12:56:28.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-12-29 12:56:28.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-12-29 12:56:28.9|Info|DatabaseEngineVersionCheck|SQLite 3.50.4
+2025-12-29 12:56:28.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0468076s
+2025-12-29 12:56:28.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-12-29 12:56:28.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0532698s
+2025-12-29 12:56:29.0|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-12-29 12:56:29.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-12-29 12:56:29.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-12-29 12:56:29.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-12-29 12:56:29.0|Info|DatabaseEngineVersionCheck|SQLite 3.50.4
+2025-12-29 12:56:29.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0743674s
+2025-12-29 12:56:29.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-12-29 12:56:29.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0762589s
+2025-12-29 12:56:29.4|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2025-12-29 12:56:29.6|Info|CommandExecutor|Starting 3 threads for tasks.
+2025-12-29 12:56:32.3|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-12-29 12:56:33.3|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-12-29 12:56:33.3|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-12-29 12:56:33.3|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2025-12-29 12:57:10.0|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-12-29 12:57:10.0|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-12-29 12:57:10.1|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5070]
+2025-12-29 12:57:10.1|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045]
+2025-12-29 12:57:48.1|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-12-29 12:57:49.3|Info|ConsoleApp|Exiting main.
+2025-12-29 13:28:25.2|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 2.3.0.5236
+2025-12-29 13:28:25.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 13:28:25.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 13:28:25.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 13:28:26.3|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-12-29 13:28:26.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-12-29 13:28:26.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-12-29 13:28:26.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-12-29 13:28:26.5|Info|DatabaseEngineVersionCheck|SQLite 3.50.4
+2025-12-29 13:28:26.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0529704s
+2025-12-29 13:28:26.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-12-29 13:28:26.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0601672s
+2025-12-29 13:28:26.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-12-29 13:28:26.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-12-29 13:28:26.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-12-29 13:28:26.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-12-29 13:28:26.5|Info|DatabaseEngineVersionCheck|SQLite 3.50.4
+2025-12-29 13:28:26.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0055527s
+2025-12-29 13:28:26.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-12-29 13:28:26.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0061942s
+2025-12-29 13:28:27.1|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2025-12-29 13:28:27.5|Info|CommandExecutor|Starting 3 threads for tasks.
+2025-12-29 13:28:29.8|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-12-29 13:28:30.5|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-12-29 13:28:30.5|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-12-29 13:28:30.5|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2025-12-29 13:29:01.3|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-12-29 13:29:01.3|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-12-29 13:29:01.3|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5070]
+2025-12-29 13:29:01.3|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045]
+2025-12-29 13:29:06.6|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-12-29 13:29:06.7|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-12-29 13:29:06.7|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020, 2040, 2060, 2030, 2045]
+2025-12-29 13:29:38.1|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-12-29 13:29:39.1|Info|ConsoleApp|Exiting main.
+2025-12-29 13:44:38.5|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 2.3.0.5236
+2025-12-29 13:44:38.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 13:44:38.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 13:44:39.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 13:44:39.6|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-12-29 13:44:39.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-12-29 13:44:39.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-12-29 13:44:39.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-12-29 13:44:40.2|Info|DatabaseEngineVersionCheck|SQLite 3.50.4
+2025-12-29 13:44:40.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.446158s
+2025-12-29 13:44:40.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-12-29 13:44:40.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.4522791s
+2025-12-29 13:44:40.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-12-29 13:44:40.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-12-29 13:44:40.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-12-29 13:44:40.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-12-29 13:44:40.3|Info|DatabaseEngineVersionCheck|SQLite 3.50.4
+2025-12-29 13:44:40.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0054029s
+2025-12-29 13:44:40.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-12-29 13:44:40.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0060919s
+2025-12-29 13:44:40.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2025-12-29 13:44:41.0|Info|CommandExecutor|Starting 3 threads for tasks.
+2025-12-29 13:44:42.8|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-12-29 13:44:43.4|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-12-29 13:44:43.4|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-12-29 13:44:43.4|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2025-12-29 13:45:14.9|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-12-29 13:45:14.9|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5070]
+2025-12-29 13:45:14.9|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-12-29 13:45:14.9|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045]
+2025-12-29 13:56:18.4|Warn|Readarr|Unable to complete application test
+
+[v2.3.0.5236] System.Net.Http.HttpRequestException: Connection refused (localhost:8787)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 355
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 341
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./NzbDrone.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.Execute[TResource](HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 202
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.GetIndexerSchema(ReadarrSettings settings) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 76
+   at NzbDrone.Core.Applications.Readarr.Readarr.<>c__DisplayClass11_0.<BuildReadarrIndexer>b__0() in ./NzbDrone.Core/Applications/Readarr/Readarr.cs:line 233
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./NzbDrone.Common/Cache/Cached.cs:line 98
+   at NzbDrone.Core.Applications.Readarr.Readarr.BuildReadarrIndexer(IndexerDefinition indexer, IndexerCapabilities indexerCapabilities, DownloadProtocol protocol, Int32 id) in ./NzbDrone.Core/Applications/Readarr/Readarr.cs:line 233
+   at NzbDrone.Core.Applications.Readarr.Readarr.Test() in ./NzbDrone.Core/Applications/Readarr/Readarr.cs:line 52
+
+
+2025-12-29 13:56:18.6|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- BaseUrl: Unable to complete application test, cannot connect to Readarr. Connection refused (localhost:8787)
+2025-12-29 13:56:28.5|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [POST] http://readarr:8787/api/v1/indexer/test: 400.BadRequest (243 bytes)
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Unable to connect to indexer, please check your DNS settings and ensure IPv6 is working or disabled. Connection refused (localhost:9696)",
+    "severity": "error"
+  }
+]
+2025-12-29 13:56:28.5|Warn|Readarr|Prowlarr URL is invalid
+
+[v2.3.0.5236] NzbDrone.Common.Http.HttpException: HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer/test]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Post(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 423
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.TestConnection(ReadarrIndexer indexer, ReadarrSettings settings) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 128
+   at NzbDrone.Core.Applications.Readarr.Readarr.Test() in ./NzbDrone.Core/Applications/Readarr/Readarr.cs:line 52
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Unable to connect to indexer, please check your DNS settings and ensure IPv6 is working or disabled. Connection refused (localhost:9696)",
+    "severity": "error"
+  }
+]
+
+
+2025-12-29 13:56:28.5|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- ProwlarrUrl: Prowlarr URL is invalid, Readarr cannot connect to Prowlarr
+2025-12-29 13:56:41.1|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [], Offset: 0, Limit: 100, Categories: [7000, 3030]
+2025-12-29 13:56:42.4|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [POST] http://readarr:8787/api/v1/indexer: 400.BadRequest (274 bytes)
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+2025-12-29 13:56:42.4|Warn|ReadarrV1Proxy|No Results in configured categories. See FAQ Entry: Prowlarr will not sync X Indexer to App
+
+[v2.3.0.5236] NzbDrone.Common.Http.HttpException: HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.Execute[TResource](HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 202
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.ExecuteIndexerRequest(HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 137
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+
+
+2025-12-29 13:56:43.1|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [], Offset: 0, Limit: 100, Categories: [7000, 3030]
+2025-12-29 13:56:43.8|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [POST] http://readarr:8787/api/v1/indexer?forceSave=true: 400.BadRequest (274 bytes)
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+2025-12-29 13:56:43.8|Warn|ReadarrV1Proxy|No Results in configured categories. See FAQ Entry: Prowlarr will not sync X Indexer to App
+
+[v2.3.0.5236] NzbDrone.Common.Http.HttpException: HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer?forceSave=true]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.Execute[TResource](HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 202
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.ExecuteIndexerRequest(HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 137
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+
+
+2025-12-29 13:56:43.9|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer?forceSave=true]
+
+[v2.3.0.5236] NzbDrone.Common.Http.HttpException: HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer?forceSave=true]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.Execute[TResource](HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 202
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.ExecuteIndexerRequest(HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.AddIndexer(ReadarrIndexer indexer, ReadarrSettings settings) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 96
+   at NzbDrone.Core.Applications.Readarr.Readarr.AddIndexer(IndexerDefinition indexer) in ./NzbDrone.Core/Applications/Readarr/Readarr.cs:line 142
+   at NzbDrone.Core.Applications.ApplicationService.<>c__DisplayClass14_2.<SyncIndexers>b__5(IApplication a) in ./NzbDrone.Core/Applications/ApplicationService.cs:line 177
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction(Action`1 applicationAction, IApplication application) in ./NzbDrone.Core/Applications/ApplicationService.cs:line 239
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+
+
+2025-12-29 13:56:45.1|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [], Offset: 0, Limit: 100, Categories: [7000, 7020]
+2025-12-29 13:56:45.8|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [POST] http://readarr:8787/api/v1/indexer: 400.BadRequest (274 bytes)
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+2025-12-29 13:56:45.8|Warn|ReadarrV1Proxy|No Results in configured categories. See FAQ Entry: Prowlarr will not sync X Indexer to App
+
+[v2.3.0.5236] NzbDrone.Common.Http.HttpException: HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.Execute[TResource](HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 202
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.ExecuteIndexerRequest(HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 137
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+
+
+2025-12-29 13:56:47.1|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [], Offset: 0, Limit: 100, Categories: [7000, 7020]
+2025-12-29 13:56:47.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [POST] http://readarr:8787/api/v1/indexer?forceSave=true: 400.BadRequest (274 bytes)
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+2025-12-29 13:56:47.7|Warn|ReadarrV1Proxy|No Results in configured categories. See FAQ Entry: Prowlarr will not sync X Indexer to App
+
+[v2.3.0.5236] NzbDrone.Common.Http.HttpException: HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer?forceSave=true]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.Execute[TResource](HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 202
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.ExecuteIndexerRequest(HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 137
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+
+
+2025-12-29 13:56:47.8|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer?forceSave=true]
+
+[v2.3.0.5236] NzbDrone.Common.Http.HttpException: HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer?forceSave=true]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.Execute[TResource](HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 202
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.ExecuteIndexerRequest(HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.AddIndexer(ReadarrIndexer indexer, ReadarrSettings settings) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 96
+   at NzbDrone.Core.Applications.Readarr.Readarr.AddIndexer(IndexerDefinition indexer) in ./NzbDrone.Core/Applications/Readarr/Readarr.cs:line 142
+   at NzbDrone.Core.Applications.ApplicationService.<>c__DisplayClass14_2.<SyncIndexers>b__5(IApplication a) in ./NzbDrone.Core/Applications/ApplicationService.cs:line 177
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction(Action`1 applicationAction, IApplication application) in ./NzbDrone.Core/Applications/ApplicationService.cs:line 239
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+
+
+2025-12-29 13:56:49.1|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 13:56:51.1|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [], Offset: 0, Limit: 100, Categories: [7000, 3030, 7020, 7030, 7050]
+2025-12-29 13:56:51.4|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [POST] http://readarr:8787/api/v1/indexer: 400.BadRequest (274 bytes)
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+2025-12-29 13:56:51.4|Warn|ReadarrV1Proxy|No Results in configured categories. See FAQ Entry: Prowlarr will not sync X Indexer to App
+
+[v2.3.0.5236] NzbDrone.Common.Http.HttpException: HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.Execute[TResource](HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 202
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.ExecuteIndexerRequest(HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 137
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+
+
+2025-12-29 13:56:53.3|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [], Offset: 0, Limit: 100, Categories: [7000, 3030, 7020, 7030, 7050]
+2025-12-29 13:56:53.5|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [POST] http://readarr:8787/api/v1/indexer?forceSave=true: 400.BadRequest (274 bytes)
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+2025-12-29 13:56:53.6|Warn|ReadarrV1Proxy|No Results in configured categories. See FAQ Entry: Prowlarr will not sync X Indexer to App
+
+[v2.3.0.5236] NzbDrone.Common.Http.HttpException: HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer?forceSave=true]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.Execute[TResource](HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 202
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.ExecuteIndexerRequest(HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 137
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+
+
+2025-12-29 13:56:53.6|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer?forceSave=true]
+
+[v2.3.0.5236] NzbDrone.Common.Http.HttpException: HTTP request failed: [400:BadRequest] [POST] at [http://readarr:8787/api/v1/indexer?forceSave=true]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.Execute[TResource](HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 202
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.ExecuteIndexerRequest(HttpRequest request) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 137
+   at NzbDrone.Core.Applications.Readarr.ReadarrV1Proxy.AddIndexer(ReadarrIndexer indexer, ReadarrSettings settings) in ./NzbDrone.Core/Applications/Readarr/ReadarrV1Proxy.cs:line 96
+   at NzbDrone.Core.Applications.Readarr.Readarr.AddIndexer(IndexerDefinition indexer) in ./NzbDrone.Core/Applications/Readarr/Readarr.cs:line 142
+   at NzbDrone.Core.Applications.ApplicationService.<>c__DisplayClass14_2.<SyncIndexers>b__5(IApplication a) in ./NzbDrone.Core/Applications/ApplicationService.cs:line 177
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction(Action`1 applicationAction, IApplication application) in ./NzbDrone.Core/Applications/ApplicationService.cs:line 239
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+
+
+2025-12-29 13:57:16.6|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 13:58:17.1|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-12-29 13:58:18.3|Info|ConsoleApp|Exiting main.
+2025-12-29 13:59:47.1|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 2.3.0.5236
+2025-12-29 13:59:47.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 13:59:47.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 13:59:47.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-12-29 13:59:48.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-12-29 13:59:48.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-12-29 13:59:48.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-12-29 13:59:48.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-12-29 13:59:48.3|Info|DatabaseEngineVersionCheck|SQLite 3.50.4
+2025-12-29 13:59:48.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0622993s
+2025-12-29 13:59:48.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-12-29 13:59:48.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0679691s
+2025-12-29 13:59:48.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-12-29 13:59:48.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-12-29 13:59:48.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-12-29 13:59:48.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-12-29 13:59:48.4|Info|DatabaseEngineVersionCheck|SQLite 3.50.4
+2025-12-29 13:59:48.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0068637s
+2025-12-29 13:59:48.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-12-29 13:59:48.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0074123s
+2025-12-29 13:59:48.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2025-12-29 13:59:49.0|Info|CommandExecutor|Starting 3 threads for tasks.
+2025-12-29 13:59:52.2|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-12-29 13:59:53.3|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-12-29 13:59:53.3|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-12-29 13:59:53.3|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2025-12-29 14:00:22.3|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:00:28.2|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-12-29 14:00:28.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-12-29 14:00:28.5|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020, 2040, 2060, 2030, 2045]
+2025-12-29 14:00:30.2|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-12-29 14:00:30.2|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-12-29 14:00:30.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5070]
+2025-12-29 14:00:30.2|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045]
+2025-12-29 14:13:17.6|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [I Robot Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:19.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Rest of the Robots Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:21.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Caves of Steel Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:23.6|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov I Robot], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:25.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov Rest of the Robots], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:27.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov Caves of Steel], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:29.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [I Robot], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:31.6|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Rest of the Robots], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:33.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Caves of Steel], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:35.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Naked Sun Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:37.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Robots of Dawn Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:39.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Robots and Empire Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:41.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov Naked Sun], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:43.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov Robots of Dawn], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:45.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov Robots and Empire], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:47.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Naked Sun], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:49.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Robots of Dawn], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:13:51.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Robots and Empire], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:15:15.0|Warn|Cardigann|Request for BitSearch failed with status 522. Retrying in 2.6758287s.
+2025-12-29 14:15:17.4|Warn|Cardigann|Unable to connect to indexer
+
+[v2.3.0.5236] System.Net.Http.HttpRequestException: Resource temporarily unavailable (solidtorrents.to:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 355
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 341
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./NzbDrone.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Core.Indexers.IndexerHttpClient.ExecuteProxiedAsync(HttpRequest request, ProviderDefinition definition) in ./NzbDrone.Core/Indexers/IndexerHttpClient.cs:line 43
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.<>c.<<FetchIndexerResponse>b__57_0>d.MoveNext() in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 665
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__9`2.<<ExecuteAsync>b__9_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Outcome`1.GetResultOrRethrow()
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult,TState](Func`3 callback, TState state, CancellationToken cancellationToken)
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchIndexerResponse(IndexerRequest request) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 664
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 587
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 764
+
+
+2025-12-29 14:15:17.6|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer. This is typically caused by DNS/SSL issues. Check DNS settings, ensure IPv6 is working or disabled, consider using different DNS servers, or try a VPN/proxy if needed. See: 'https://wiki.servarr.com/prowlarr/troubleshooting#dns-ssl-connection-issues' Resource temporarily unavailable (solidtorrents.to:443)
+2025-12-29 14:15:28.6|Warn|Cardigann|Redirected to https://bj-share.info/login.php?a from indexer request
+2025-12-29 14:15:28.6|Warn|Cardigann|Unable to connect to indexer
+
+[v2.3.0.5236] NzbDrone.Core.Indexers.Exceptions.IndexerException: We are being redirected to the login page. Most likely your session expired or was killed. Recheck your cookie or credentials and try testing the indexer.
+   at NzbDrone.Core.Indexers.Definitions.Cardigann.CardigannParser.ParseResponse(IndexerResponse indexerResponse) in ./NzbDrone.Core/Indexers/Definitions/Cardigann/CardigannParser.cs:line 50
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 591
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 764
+RequestUri: https://bj-share.info/torrents.php;StatusCode: Found;ContentType: text/html; charset=UTF-8;ContentLength: 0
+
+2025-12-29 14:15:28.6|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer. We are being redirected to the login page. Most likely your session expired or was killed. Recheck your cookie or credentials and try testing the indexer.
+2025-12-29 14:15:37.0|Warn|Cardigann|Request for BitSearch failed with status 522. Retrying in 1.4899554s.
+2025-12-29 14:15:53.7|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:15:58.0|Warn|Cardigann|HTTP Error - Res: HTTP/2.0 [GET] https://bitsearch.to/latest: 522.522 (15 bytes)
+error code: 522
+2025-12-29 14:15:58.0|Warn|Cardigann|Unable to connect to indexer
+
+[v2.3.0.5236] NzbDrone.Common.Http.HttpException: HTTP request failed: [522:522] [GET] at [https://bitsearch.to/latest]
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchIndexerResponse(IndexerRequest request) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 701
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 587
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 764
+error code: 522
+
+
+2025-12-29 14:15:58.1|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer, indexer's server is unavailable. Try again later. HTTP request failed: [522:522] [GET] at [https://bitsearch.to/latest]
+2025-12-29 14:15:59.4|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:16:01.5|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-12-29 14:16:01.5|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-12-29 14:16:01.5|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5070]
+2025-12-29 14:16:01.5|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045]
+2025-12-29 14:16:11.7|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access idope.me, blocked by CloudFlare Protection.
+2025-12-29 14:16:15.7|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access idope.me, blocked by CloudFlare Protection.
+2025-12-29 14:16:51.5|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access isohunt.sh, blocked by CloudFlare Protection.
+2025-12-29 14:16:57.2|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access kickass.ws, blocked by CloudFlare Protection.
+2025-12-29 14:17:05.4|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-12-29 14:17:07.8|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-12-29 14:17:09.4|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:17:13.4|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- Name: Should be unique
+2025-12-29 14:17:26.7|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access megapeer.vip, blocked by CloudFlare Protection.
+2025-12-29 14:17:30.3|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access megapeer.vip, blocked by CloudFlare Protection.
+2025-12-29 14:17:47.9|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-12-29 14:17:50.3|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-12-29 14:17:52.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:18:11.4|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access www.529070.xyz, blocked by CloudFlare Protection.
+2025-12-29 14:18:15.3|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access www.529071.xyz, blocked by CloudFlare Protection.
+2025-12-29 14:18:32.6|Warn|Cardigann|Unable to connect to indexer
+
+[v2.3.0.5236] System.Net.Http.HttpRequestException: Resource temporarily unavailable (1337x.to:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 355
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 341
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./NzbDrone.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Core.Indexers.IndexerHttpClient.ExecuteProxiedAsync(HttpRequest request, ProviderDefinition definition) in ./NzbDrone.Core/Indexers/IndexerHttpClient.cs:line 43
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.<>c.<<FetchIndexerResponse>b__57_0>d.MoveNext() in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 665
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__9`2.<<ExecuteAsync>b__9_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Outcome`1.GetResultOrRethrow()
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult,TState](Func`3 callback, TState state, CancellationToken cancellationToken)
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchIndexerResponse(IndexerRequest request) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 664
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 587
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 764
+
+
+2025-12-29 14:18:32.7|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer. This is typically caused by DNS/SSL issues. Check DNS settings, ensure IPv6 is working or disabled, consider using different DNS servers, or try a VPN/proxy if needed. See: 'https://wiki.servarr.com/prowlarr/troubleshooting#dns-ssl-connection-issues' Resource temporarily unavailable (1337x.to:443)
+2025-12-29 14:18:36.4|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access 1337x.st, blocked by CloudFlare Protection.
+2025-12-29 14:18:42.7|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access x1337x.ws, blocked by CloudFlare Protection.
+2025-12-29 14:18:45.0|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access x1337x.eu, blocked by CloudFlare Protection.
+2025-12-29 14:18:46.9|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access x1337x.eu, blocked by CloudFlare Protection.
+2025-12-29 14:18:49.9|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access x1337x.cc, blocked by CloudFlare Protection.
+2025-12-29 14:19:00.6|Warn|Cardigann|Unable to connect to indexer
+
+[v2.3.0.5236] System.Net.Http.HttpRequestException: Resource temporarily unavailable (1337x.to:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 355
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 341
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./NzbDrone.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Core.Indexers.IndexerHttpClient.ExecuteProxiedAsync(HttpRequest request, ProviderDefinition definition) in ./NzbDrone.Core/Indexers/IndexerHttpClient.cs:line 43
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.<>c.<<FetchIndexerResponse>b__57_0>d.MoveNext() in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 665
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__9`2.<<ExecuteAsync>b__9_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Outcome`1.GetResultOrRethrow()
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult,TState](Func`3 callback, TState state, CancellationToken cancellationToken)
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchIndexerResponse(IndexerRequest request) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 664
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 587
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 764
+
+
+2025-12-29 14:19:00.7|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer. This is typically caused by DNS/SSL issues. Check DNS settings, ensure IPv6 is working or disabled, consider using different DNS servers, or try a VPN/proxy if needed. See: 'https://wiki.servarr.com/prowlarr/troubleshooting#dns-ssl-connection-issues' Resource temporarily unavailable (1337x.to:443)
+2025-12-29 14:19:15.0|Warn|Cardigann|Unable to connect to indexer
+
+[v2.3.0.5236] System.Net.Http.HttpRequestException: Resource temporarily unavailable (1337x.to:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 355
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 341
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./NzbDrone.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Core.Indexers.IndexerHttpClient.ExecuteProxiedAsync(HttpRequest request, ProviderDefinition definition) in ./NzbDrone.Core/Indexers/IndexerHttpClient.cs:line 43
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.<>c.<<FetchIndexerResponse>b__57_0>d.MoveNext() in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 665
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__9`2.<<ExecuteAsync>b__9_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Outcome`1.GetResultOrRethrow()
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult,TState](Func`3 callback, TState state, CancellationToken cancellationToken)
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchIndexerResponse(IndexerRequest request) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 664
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 587
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 764
+
+
+2025-12-29 14:19:15.1|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer. This is typically caused by DNS/SSL issues. Check DNS settings, ensure IPv6 is working or disabled, consider using different DNS servers, or try a VPN/proxy if needed. See: 'https://wiki.servarr.com/prowlarr/troubleshooting#dns-ssl-connection-issues' Resource temporarily unavailable (1337x.to:443)
+2025-12-29 14:19:30.4|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to access isohunt.sh, blocked by CloudFlare Protection.
+2025-12-29 14:19:42.8|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Robots of Dawn Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:42.8|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Robots of Dawn Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:19:42.9|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Robots of Dawn Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:42.9|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Robots of Dawn Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:44.8|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Isaac Asimov Robots of Dawn], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:44.9|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Isaac Asimov Robots of Dawn], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:45.0|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Isaac Asimov Robots of Dawn], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:19:45.0|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov Robots of Dawn], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:46.8|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Robots of Dawn], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:46.8|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Robots of Dawn], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:46.8|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Robots of Dawn], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:19:46.8|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Robots of Dawn], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:55.2|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Naked Sun Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:55.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Naked Sun Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:55.2|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Naked Sun Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:19:55.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Naked Sun Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:57.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov Naked Sun], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:57.3|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Caves of Steel Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:57.3|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Caves of Steel Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:57.3|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Caves of Steel Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:19:59.2|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Rest of the Robots Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:59.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Isaac Asimov Naked Sun], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:59.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Caves of Steel Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:19:59.2|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Rest of the Robots Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:20:01.2|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Isaac Asimov Naked Sun], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:01.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Rest of the Robots Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:01.2|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Isaac Asimov Naked Sun], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:20:01.3|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Rest of the Robots Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:03.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Isaac Asimov Caves of Steel], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:03.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Naked Sun], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:03.3|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Isaac Asimov Caves of Steel], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:20:03.3|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Isaac Asimov Caves of Steel], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:05.2|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Isaac Asimov Rest of the Robots], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:05.2|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Isaac Asimov Rest of the Robots], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:20:05.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov Caves of Steel], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:05.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Naked Sun], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:07.2|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Naked Sun], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:07.2|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Naked Sun], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:20:07.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Isaac Asimov Rest of the Robots], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:07.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov Rest of the Robots], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:09.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Rest of the Robots], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:09.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Caves of Steel], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:09.2|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Rest of the Robots], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:09.2|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Caves of Steel], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:20:11.2|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [I Robot Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:11.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Rest of the Robots], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:11.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [I Robot Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:11.2|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Rest of the Robots], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:20:13.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [I Robot Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:13.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Isaac Asimov I Robot], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:13.2|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [I Robot Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:20:13.2|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Isaac Asimov I Robot], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:15.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov I Robot], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:17.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [I Robot], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:20:18.4|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Isaac Asimov I Robot], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:20:20.5|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [I Robot], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:21:19.2|Warn|Cardigann|Unable to connect to indexer
+
+[v2.3.0.5236] System.Net.Http.HttpRequestException: Resource temporarily unavailable (1337x.to:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 355
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 341
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./NzbDrone.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./NzbDrone.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Core.Indexers.IndexerHttpClient.ExecuteProxiedAsync(HttpRequest request, ProviderDefinition definition) in ./NzbDrone.Core/Indexers/IndexerHttpClient.cs:line 43
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.<>c.<<FetchIndexerResponse>b__57_0>d.MoveNext() in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 665
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__9`2.<<ExecuteAsync>b__9_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Outcome`1.GetResultOrRethrow()
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult,TState](Func`3 callback, TState state, CancellationToken cancellationToken)
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchIndexerResponse(IndexerRequest request) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 664
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 587
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in ./NzbDrone.Core/Indexers/HttpIndexerBase.cs:line 764
+
+
+2025-12-29 14:21:19.3|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer. This is typically caused by DNS/SSL issues. Check DNS settings, ensure IPv6 is working or disabled, consider using different DNS servers, or try a VPN/proxy if needed. See: 'https://wiki.servarr.com/prowlarr/troubleshooting#dns-ssl-connection-issues' Resource temporarily unavailable (1337x.to:443)
+2025-12-29 14:24:21.3|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay, BigFANGroup, LimeTorrents, NorTorrent, EBookBay, kickasstorrents.ws, Torrent Downloads] for Term: [asimov], Offset: 0, Limit: 100, Categories: []
+2025-12-29 14:25:25.4|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:25:25.4|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:25:25.4|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:25:25.4|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:30:32.2|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-12-29 14:30:32.2|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-12-29 14:30:32.2|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-12-29 14:30:32.2|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020, 2040, 2060, 2030, 2045]
+2025-12-29 14:30:32.2|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-12-29 14:30:56.1|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:30:56.1|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:30:56.1|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:30:56.1|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:31:04.3|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045]
+2025-12-29 14:31:04.3|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-12-29 14:31:04.3|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-12-29 14:31:04.3|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5070]
+2025-12-29 14:31:04.3|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-12-29 14:31:04.3|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-12-29 14:34:08.9|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:34:08.9|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:34:08.9|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:34:08.9|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [Isaac Asimov], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:46:30.4|Info|ReleaseSearchService|Searching indexer(s): [EBookBay] for Term: [], Offset: 0, Limit: 100, Categories: [7000, 7020, 7030, 3030]
+2025-12-29 14:46:30.4|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:46:30.4|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:46:30.4|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [], Offset: 0, Limit: 100, Categories: [7000]
+2025-12-29 14:46:36.9|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-12-29 14:46:36.9|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-12-29 14:46:36.9|Info|ReleaseSearchService|Searching indexer(s): [NorTorrent] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5070]
+2025-12-29 14:46:36.9|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045]
+2025-12-29 14:46:36.9|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-12-29 14:46:36.9|Info|ReleaseSearchService|Searching indexer(s): [kickasstorrents.ws] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-12-29 14:46:38.9|Info|ReleaseSearchService|Searching indexer(s): [Torrent Downloads] for Term: [] for Season / Episode:[], Offset: 100, Limit: 100, Categories: [5000, 5070]
