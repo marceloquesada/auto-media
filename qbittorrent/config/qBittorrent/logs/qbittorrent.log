@@ -1,0 +1,451 @@
+(N) 2025-12-28T20:32:17 - qBittorrent v5.1.4 started. Process ID: 153
+(N) 2025-12-28T20:32:17 - Using config directory: /config/qBittorrent
+(N) 2025-12-28T20:32:17 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-28T20:32:17 - Peer ID: "-qB5140-"
+(I) 2025-12-28T20:32:17 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-28T20:32:17 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-28T20:32:17 - Local Peer Discovery support: ON
+(I) 2025-12-28T20:32:17 - Peer Exchange (PeX) support: ON
+(I) 2025-12-28T20:32:17 - Anonymous mode: OFF
+(I) 2025-12-28T20:32:17 - Encryption support: ON
+(I) 2025-12-28T20:32:17 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-28T20:32:17 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-28T20:32:17 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2025-12-28T20:32:17 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2025-12-28T20:32:17 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-28T20:32:17 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2025-12-28T20:32:17 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2025-12-28T20:32:18 - Using built-in WebUI.
+(W) 2025-12-28T20:32:18 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-12-28T20:32:18 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-28T20:32:18 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(I) 2025-12-28T20:32:18 - Successfully updated IP geolocation database.
+(I) 2025-12-28T20:32:22 - Detected external IP. IP: "177.181.2.77"
+(N) 2025-12-28T20:51:45 - qBittorrent termination initiated
+(N) 2025-12-28T20:51:46 - Saving resume data completed.
+(N) 2025-12-28T20:51:46 - BitTorrent session successfully finished.
+(N) 2025-12-28T20:51:46 - qBittorrent is now ready to exit
+(N) 2025-12-28T20:52:01 - qBittorrent v5.1.4 started. Process ID: 149
+(N) 2025-12-28T20:52:01 - Using config directory: /config/qBittorrent
+(N) 2025-12-28T20:52:01 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-28T20:52:02 - Peer ID: "-qB5140-"
+(I) 2025-12-28T20:52:02 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-28T20:52:02 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-28T20:52:02 - Local Peer Discovery support: ON
+(I) 2025-12-28T20:52:02 - Peer Exchange (PeX) support: ON
+(I) 2025-12-28T20:52:02 - Anonymous mode: OFF
+(I) 2025-12-28T20:52:02 - Encryption support: ON
+(I) 2025-12-28T20:52:02 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-28T20:52:02 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-28T20:52:02 - Successfully listening on IP. IP: "172.18.0.3". Port: "TCP/6881"
+(I) 2025-12-28T20:52:02 - Successfully listening on IP. IP: "172.18.0.3". Port: "UTP/6881"
+(I) 2025-12-28T20:52:02 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-28T20:52:02 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2025-12-28T20:52:02 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(N) 2025-12-28T20:52:02 - Using built-in WebUI.
+(W) 2025-12-28T20:52:02 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-12-28T20:52:02 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-28T20:52:07 - Detected external IP. IP: "177.181.2.77"
+(W) 2025-12-28T21:08:40 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:192.168.0.39, username: admin
+(W) 2025-12-28T21:08:45 - WebAPI login failure. Reason: invalid credentials, attempt count: 2, IP: ::ffff:192.168.0.39, username: admin
+(W) 2025-12-28T21:08:47 - WebAPI login failure. Reason: invalid credentials, attempt count: 3, IP: ::ffff:192.168.0.39, username: admin
+(W) 2025-12-28T21:17:44 - WebAPI login failure. Reason: invalid credentials, attempt count: 4, IP: ::ffff:192.168.0.39, username: admin
+(N) 2025-12-28T21:20:20 - qBittorrent termination initiated
+(N) 2025-12-28T21:20:21 - Saving resume data completed.
+(N) 2025-12-28T21:20:21 - BitTorrent session successfully finished.
+(N) 2025-12-28T21:20:21 - qBittorrent is now ready to exit
+(N) 2025-12-28T21:20:36 - qBittorrent v5.1.4 started. Process ID: 149
+(N) 2025-12-28T21:20:36 - Using config directory: /config/qBittorrent
+(N) 2025-12-28T21:20:36 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-28T21:20:36 - Peer ID: "-qB5140-"
+(I) 2025-12-28T21:20:36 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-28T21:20:36 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-28T21:20:36 - Local Peer Discovery support: ON
+(I) 2025-12-28T21:20:36 - Peer Exchange (PeX) support: ON
+(I) 2025-12-28T21:20:36 - Anonymous mode: OFF
+(I) 2025-12-28T21:20:36 - Encryption support: ON
+(I) 2025-12-28T21:20:36 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-28T21:20:36 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-28T21:20:36 - Successfully listening on IP. IP: "172.18.0.3". Port: "TCP/6881"
+(I) 2025-12-28T21:20:36 - Successfully listening on IP. IP: "172.18.0.3". Port: "UTP/6881"
+(I) 2025-12-28T21:20:36 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-28T21:20:36 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2025-12-28T21:20:36 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(N) 2025-12-28T21:20:36 - Using built-in WebUI.
+(W) 2025-12-28T21:20:36 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-12-28T21:20:36 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-28T21:20:42 - Detected external IP. IP: "177.181.2.77"
+(W) 2025-12-28T21:21:22 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:192.168.0.39, username: admin
+(W) 2025-12-28T21:21:25 - WebAPI login failure. Reason: invalid credentials, attempt count: 2, IP: ::ffff:192.168.0.39, username: admin
+(N) 2025-12-28T21:21:39 - WebAPI login success. IP: ::ffff:192.168.0.39
+(N) 2025-12-28T21:21:57 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-12-28T21:23:52 - WebAPI login success. IP: ::ffff:172.18.0.2
+(N) 2025-12-28T21:24:05 - Added new torrent. Torrent: "Fallout S02E01 iTALiAN MULTi PROPER 1080p WEB H264-NTROPiC"
+(N) 2025-12-28T21:24:20 - Added new torrent. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL"
+(N) 2025-12-28T21:24:50 - Torrent removed. Torrent: "Fallout S02E01 iTALiAN MULTi PROPER 1080p WEB H264-NTROPiC"
+(N) 2025-12-28T21:24:50 - Torrent content removed. Torrent: "Fallout S02E01 iTALiAN MULTi PROPER 1080p WEB H264-NTROPiC"
+(N) 2025-12-28T21:26:01 - WebAPI login success. IP: ::ffff:172.18.0.5
+(N) 2025-12-28T21:34:27 - Torrent download finished. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL"
+(W) 2025-12-28T21:38:12 - File error alert. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL". File: "/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv". Reason: "Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv file_read (/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv) error: I/O error"
+(W) 2025-12-28T21:38:26 - File error alert. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL". File: "/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv". Reason: "Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv file_read (/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv) error: I/O error"
+(W) 2025-12-28T21:38:33 - File error alert. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL". File: "/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv". Reason: "Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv file_read (/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv) error: I/O error"
+(W) 2025-12-28T21:38:36 - File error alert. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL". File: "/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv". Reason: "Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv file_read (/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv) error: I/O error"
+(W) 2025-12-28T21:38:38 - File error alert. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL". File: "/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv". Reason: "Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv file_read (/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv) error: I/O error"
+(W) 2025-12-28T21:38:49 - File error alert. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL". File: "/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv". Reason: "Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv file_read (/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv) error: I/O error"
+(W) 2025-12-28T21:39:06 - File error alert. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL". File: "/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv". Reason: "Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv file_read (/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv) error: I/O error"
+(W) 2025-12-28T21:39:21 - File error alert. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL". File: "/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv". Reason: "Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv file_read (/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv) error: I/O error"
+(W) 2025-12-28T21:39:23 - File error alert. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL". File: "/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv". Reason: "Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv file_read (/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv) error: I/O error"
+(W) 2025-12-28T21:39:25 - File error alert. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL". File: "/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv". Reason: "Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv file_read (/downloads/Fallout.2024.S02E02.1080p.WEB.h264-ETHEL[EZTVx.to].mkv) error: I/O error"
+(N) 2025-12-28T21:39:46 - qBittorrent v5.1.4 started. Process ID: 147
+(N) 2025-12-28T21:39:46 - Using config directory: /config/qBittorrent
+(N) 2025-12-28T21:39:46 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-28T21:39:46 - Peer ID: "-qB5140-"
+(I) 2025-12-28T21:39:46 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-28T21:39:46 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-28T21:39:46 - Local Peer Discovery support: ON
+(I) 2025-12-28T21:39:46 - Peer Exchange (PeX) support: ON
+(I) 2025-12-28T21:39:46 - Anonymous mode: OFF
+(I) 2025-12-28T21:39:46 - Encryption support: ON
+(I) 2025-12-28T21:39:46 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-28T21:39:46 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-28T21:39:46 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2025-12-28T21:39:46 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2025-12-28T21:39:46 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-28T21:39:46 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2025-12-28T21:39:47 - Restored torrent. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL"
+(I) 2025-12-28T21:39:47 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(N) 2025-12-28T21:39:48 - Using built-in WebUI.
+(N) 2025-12-28T21:39:48 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-12-28T21:39:48 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-28T21:39:48 - Detected external IP. IP: "177.181.2.77"
+(N) 2025-12-28T21:39:57 - WebAPI login success. IP: ::ffff:172.18.0.3
+(N) 2025-12-28T21:39:58 - WebAPI login success. IP: ::ffff:172.18.0.4
+(N) 2025-12-28T21:40:40 - qBittorrent termination initiated
+(N) 2025-12-28T21:40:41 - Saving resume data completed.
+(N) 2025-12-28T21:40:43 - BitTorrent session successfully finished.
+(N) 2025-12-28T21:40:43 - qBittorrent is now ready to exit
+(N) 2025-12-28T21:55:33 - qBittorrent v5.1.4 started. Process ID: 147
+(N) 2025-12-28T21:55:33 - Using config directory: /config/qBittorrent
+(N) 2025-12-28T21:55:34 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-28T21:55:35 - Peer ID: "-qB5140-"
+(I) 2025-12-28T21:55:35 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-28T21:55:35 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-28T21:55:35 - Local Peer Discovery support: ON
+(I) 2025-12-28T21:55:35 - Peer Exchange (PeX) support: ON
+(I) 2025-12-28T21:55:35 - Anonymous mode: OFF
+(I) 2025-12-28T21:55:35 - Encryption support: ON
+(I) 2025-12-28T21:55:35 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-28T21:55:35 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-28T21:55:35 - Successfully listening on IP. IP: "172.18.0.4". Port: "TCP/6881"
+(I) 2025-12-28T21:55:35 - Successfully listening on IP. IP: "172.18.0.4". Port: "UTP/6881"
+(I) 2025-12-28T21:55:35 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-28T21:55:35 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2025-12-28T21:55:35 - Restored torrent. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL"
+(I) 2025-12-28T21:55:35 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(N) 2025-12-28T21:55:36 - Using built-in WebUI.
+(N) 2025-12-28T21:55:36 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-12-28T21:55:36 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-28T21:55:38 - Detected external IP. IP: "177.181.2.77"
+(N) 2025-12-28T21:56:10 - WebAPI login success. IP: ::ffff:172.18.0.2
+(N) 2025-12-28T21:56:10 - WebAPI login success. IP: ::ffff:172.18.0.5
+(N) 2025-12-28T22:48:30 - Added new torrent. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-28T22:50:07 - Torrent removed. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-28T22:50:07 - Torrent content removed. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-28T22:54:53 - Added new torrent. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-28T22:58:30 - WebAPI login success. IP: ::ffff:192.168.0.39
+(N) 2025-12-28T23:03:14 - Added new torrent. Torrent: "Futurama S09E02 Quids Game ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-28T23:16:42 - Torrent download finished. Torrent: "Futurama S09E02 Quids Game ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:13:32 - qBittorrent v5.1.4 started. Process ID: 147
+(N) 2025-12-29T00:13:32 - Using config directory: /config/qBittorrent
+(N) 2025-12-29T00:13:32 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-29T00:13:32 - Peer ID: "-qB5140-"
+(I) 2025-12-29T00:13:32 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-29T00:13:32 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-29T00:13:32 - Local Peer Discovery support: ON
+(I) 2025-12-29T00:13:32 - Peer Exchange (PeX) support: ON
+(I) 2025-12-29T00:13:32 - Anonymous mode: OFF
+(I) 2025-12-29T00:13:32 - Encryption support: ON
+(I) 2025-12-29T00:13:32 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-29T00:13:32 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-29T00:13:32 - Successfully listening on IP. IP: "172.18.0.6". Port: "TCP/6881"
+(I) 2025-12-29T00:13:32 - Successfully listening on IP. IP: "172.18.0.6". Port: "UTP/6881"
+(I) 2025-12-29T00:13:32 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-29T00:13:32 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2025-12-29T00:13:32 - Restored torrent. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:13:32 - Restored torrent. Torrent: "Futurama S09E02 Quids Game ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:13:32 - Restored torrent. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL"
+(I) 2025-12-29T00:13:32 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(N) 2025-12-29T00:13:32 - Using built-in WebUI.
+(N) 2025-12-29T00:13:32 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-12-29T00:13:32 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-29T00:13:32 - Detected external IP. IP: "177.181.2.77"
+(N) 2025-12-29T00:13:38 - WebAPI login success. IP: ::ffff:172.18.0.2
+(N) 2025-12-29T00:13:40 - WebAPI login success. IP: ::ffff:172.18.0.5
+(N) 2025-12-29T00:16:05 - qBittorrent termination initiated
+(N) 2025-12-29T00:16:06 - Saving resume data completed.
+(N) 2025-12-29T00:16:08 - BitTorrent session successfully finished.
+(N) 2025-12-29T00:16:08 - qBittorrent is now ready to exit
+(N) 2025-12-29T00:16:29 - qBittorrent v5.1.4 started. Process ID: 147
+(N) 2025-12-29T00:16:29 - Using config directory: /config/qBittorrent
+(N) 2025-12-29T00:16:29 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-29T00:16:29 - Peer ID: "-qB5140-"
+(I) 2025-12-29T00:16:29 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-29T00:16:29 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-29T00:16:29 - Local Peer Discovery support: ON
+(I) 2025-12-29T00:16:29 - Peer Exchange (PeX) support: ON
+(I) 2025-12-29T00:16:29 - Anonymous mode: OFF
+(I) 2025-12-29T00:16:29 - Encryption support: ON
+(I) 2025-12-29T00:16:29 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-29T00:16:29 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-29T00:16:29 - Successfully listening on IP. IP: "172.18.0.6". Port: "TCP/6881"
+(I) 2025-12-29T00:16:29 - Successfully listening on IP. IP: "172.18.0.6". Port: "UTP/6881"
+(I) 2025-12-29T00:16:29 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-29T00:16:29 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2025-12-29T00:16:29 - Restored torrent. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:16:29 - Restored torrent. Torrent: "Futurama S09E02 Quids Game ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:16:29 - Restored torrent. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL"
+(I) 2025-12-29T00:16:29 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(N) 2025-12-29T00:16:29 - Using built-in WebUI.
+(N) 2025-12-29T00:16:29 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-12-29T00:16:29 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-29T00:16:30 - Detected external IP. IP: "177.181.2.77"
+(N) 2025-12-29T00:16:42 - WebAPI login success. IP: ::ffff:172.18.0.2
+(N) 2025-12-29T00:16:42 - WebAPI login success. IP: ::ffff:172.18.0.3
+(N) 2025-12-29T00:17:36 - qBittorrent termination initiated
+(N) 2025-12-29T00:17:37 - Saving resume data completed.
+(N) 2025-12-29T00:17:39 - BitTorrent session successfully finished.
+(N) 2025-12-29T00:17:39 - qBittorrent is now ready to exit
+(N) 2025-12-29T00:18:50 - qBittorrent v5.1.4 started. Process ID: 149
+(N) 2025-12-29T00:18:50 - Using config directory: /config/qBittorrent
+(N) 2025-12-29T00:18:50 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-29T00:18:50 - Peer ID: "-qB5140-"
+(I) 2025-12-29T00:18:50 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-29T00:18:50 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-29T00:18:50 - Local Peer Discovery support: ON
+(I) 2025-12-29T00:18:50 - Peer Exchange (PeX) support: ON
+(I) 2025-12-29T00:18:50 - Anonymous mode: OFF
+(I) 2025-12-29T00:18:50 - Encryption support: ON
+(I) 2025-12-29T00:18:50 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-29T00:18:50 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-29T00:18:50 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2025-12-29T00:18:50 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2025-12-29T00:18:50 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-29T00:18:50 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2025-12-29T00:18:50 - Restored torrent. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:18:50 - Restored torrent. Torrent: "Futurama S09E02 Quids Game ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:18:50 - Restored torrent. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL"
+(I) 2025-12-29T00:18:50 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(N) 2025-12-29T00:18:50 - Using built-in WebUI.
+(N) 2025-12-29T00:18:50 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-12-29T00:18:50 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-29T00:18:50 - Detected external IP. IP: "177.181.2.77"
+(N) 2025-12-29T00:18:58 - WebAPI login success. IP: ::ffff:172.18.0.3
+(N) 2025-12-29T00:18:59 - WebAPI login success. IP: ::ffff:172.18.0.6
+(N) 2025-12-29T00:19:09 - qBittorrent termination initiated
+(N) 2025-12-29T00:19:10 - Saving resume data completed.
+(N) 2025-12-29T00:19:11 - BitTorrent session successfully finished.
+(N) 2025-12-29T00:19:12 - qBittorrent is now ready to exit
+(N) 2025-12-29T00:19:35 - qBittorrent v5.1.4 started. Process ID: 149
+(N) 2025-12-29T00:19:35 - Using config directory: /config/qBittorrent
+(N) 2025-12-29T00:19:35 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-29T00:19:35 - Peer ID: "-qB5140-"
+(I) 2025-12-29T00:19:35 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-29T00:19:35 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-29T00:19:35 - Local Peer Discovery support: ON
+(I) 2025-12-29T00:19:35 - Peer Exchange (PeX) support: ON
+(I) 2025-12-29T00:19:35 - Anonymous mode: OFF
+(I) 2025-12-29T00:19:35 - Encryption support: ON
+(I) 2025-12-29T00:19:35 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-29T00:19:35 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-29T00:19:35 - Successfully listening on IP. IP: "172.18.0.3". Port: "TCP/6881"
+(I) 2025-12-29T00:19:35 - Successfully listening on IP. IP: "172.18.0.3". Port: "UTP/6881"
+(I) 2025-12-29T00:19:35 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-29T00:19:35 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2025-12-29T00:19:35 - Restored torrent. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:19:35 - Restored torrent. Torrent: "Futurama S09E02 Quids Game ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:19:35 - Restored torrent. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL"
+(I) 2025-12-29T00:19:35 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(N) 2025-12-29T00:19:35 - Using built-in WebUI.
+(N) 2025-12-29T00:19:35 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-12-29T00:19:35 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-29T00:19:35 - Detected external IP. IP: "177.181.2.77"
+(N) 2025-12-29T00:19:43 - WebAPI login success. IP: ::ffff:172.18.0.6
+(N) 2025-12-29T00:19:43 - WebAPI login success. IP: ::ffff:172.18.0.5
+(N) 2025-12-29T00:23:43 - qBittorrent termination initiated
+(N) 2025-12-29T00:23:44 - Saving resume data completed.
+(N) 2025-12-29T00:23:45 - BitTorrent session successfully finished.
+(N) 2025-12-29T00:23:45 - qBittorrent is now ready to exit
+(N) 2025-12-29T00:24:44 - qBittorrent v5.1.4 started. Process ID: 147
+(N) 2025-12-29T00:24:44 - Using config directory: /config/qBittorrent
+(N) 2025-12-29T00:24:44 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-29T00:24:44 - Peer ID: "-qB5140-"
+(I) 2025-12-29T00:24:44 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-29T00:24:44 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-29T00:24:44 - Local Peer Discovery support: ON
+(I) 2025-12-29T00:24:44 - Peer Exchange (PeX) support: ON
+(I) 2025-12-29T00:24:44 - Anonymous mode: OFF
+(I) 2025-12-29T00:24:44 - Encryption support: ON
+(I) 2025-12-29T00:24:44 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-29T00:24:44 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-29T00:24:44 - Successfully listening on IP. IP: "172.18.0.6". Port: "TCP/6881"
+(I) 2025-12-29T00:24:44 - Successfully listening on IP. IP: "172.18.0.6". Port: "UTP/6881"
+(I) 2025-12-29T00:24:44 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-29T00:24:44 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2025-12-29T00:24:44 - Restored torrent. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:24:44 - Restored torrent. Torrent: "Futurama S09E02 Quids Game ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:24:44 - Restored torrent. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL"
+(I) 2025-12-29T00:24:44 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(N) 2025-12-29T00:24:44 - Using built-in WebUI.
+(N) 2025-12-29T00:24:44 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-12-29T00:24:44 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-29T00:24:45 - Detected external IP. IP: "177.181.2.77"
+(N) 2025-12-29T00:24:52 - WebAPI login success. IP: ::ffff:172.18.0.5
+(N) 2025-12-29T00:24:52 - WebAPI login success. IP: ::ffff:172.18.0.4
+(N) 2025-12-29T00:26:20 - qBittorrent termination initiated
+(N) 2025-12-29T00:26:21 - Saving resume data completed.
+(N) 2025-12-29T00:26:22 - BitTorrent session successfully finished.
+(N) 2025-12-29T00:26:22 - qBittorrent is now ready to exit
+(N) 2025-12-29T00:26:38 - qBittorrent v5.1.4 started. Process ID: 147
+(N) 2025-12-29T00:26:38 - Using config directory: /config/qBittorrent
+(N) 2025-12-29T00:26:38 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-29T00:26:38 - Peer ID: "-qB5140-"
+(I) 2025-12-29T00:26:38 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-29T00:26:38 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-29T00:26:38 - Local Peer Discovery support: ON
+(I) 2025-12-29T00:26:38 - Peer Exchange (PeX) support: ON
+(I) 2025-12-29T00:26:38 - Anonymous mode: OFF
+(I) 2025-12-29T00:26:38 - Encryption support: ON
+(I) 2025-12-29T00:26:38 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-29T00:26:38 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-29T00:26:38 - Successfully listening on IP. IP: "172.18.0.5". Port: "TCP/6881"
+(I) 2025-12-29T00:26:38 - Successfully listening on IP. IP: "172.18.0.5". Port: "UTP/6881"
+(I) 2025-12-29T00:26:38 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-29T00:26:38 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2025-12-29T00:26:38 - Restored torrent. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:26:38 - Restored torrent. Torrent: "Futurama S09E02 Quids Game ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:26:38 - Restored torrent. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL"
+(I) 2025-12-29T00:26:38 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(N) 2025-12-29T00:26:38 - Using built-in WebUI.
+(N) 2025-12-29T00:26:38 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-12-29T00:26:38 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-29T00:26:39 - Detected external IP. IP: "177.181.2.77"
+(N) 2025-12-29T00:26:46 - WebAPI login success. IP: ::ffff:172.18.0.4
+(N) 2025-12-29T00:26:47 - WebAPI login success. IP: ::ffff:172.18.0.6
+(N) 2025-12-29T00:30:36 - WebAPI login success. IP: ::ffff:172.18.0.2
+(N) 2025-12-29T00:31:05 - qBittorrent termination initiated
+(N) 2025-12-29T00:31:05 - Saving resume data completed.
+(N) 2025-12-29T00:31:07 - BitTorrent session successfully finished.
+(N) 2025-12-29T00:31:07 - qBittorrent is now ready to exit
+(N) 2025-12-29T00:31:26 - qBittorrent v5.1.4 started. Process ID: 147
+(N) 2025-12-29T00:31:26 - Using config directory: /config/qBittorrent
+(N) 2025-12-29T00:31:26 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-29T00:31:26 - Peer ID: "-qB5140-"
+(I) 2025-12-29T00:31:26 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-29T00:31:26 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-29T00:31:26 - Local Peer Discovery support: ON
+(I) 2025-12-29T00:31:26 - Peer Exchange (PeX) support: ON
+(I) 2025-12-29T00:31:26 - Anonymous mode: OFF
+(I) 2025-12-29T00:31:26 - Encryption support: ON
+(I) 2025-12-29T00:31:26 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-29T00:31:26 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-29T00:31:26 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2025-12-29T00:31:26 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2025-12-29T00:31:26 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-29T00:31:26 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2025-12-29T00:31:26 - Restored torrent. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:31:26 - Restored torrent. Torrent: "Futurama S09E02 Quids Game ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:31:26 - Restored torrent. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL"
+(I) 2025-12-29T00:31:26 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(N) 2025-12-29T00:31:26 - Using built-in WebUI.
+(N) 2025-12-29T00:31:26 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-12-29T00:31:26 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-29T00:31:27 - Detected external IP. IP: "177.181.2.77"
+(N) 2025-12-29T00:31:37 - WebAPI login success. IP: ::ffff:172.18.0.4
+(N) 2025-12-29T00:31:37 - WebAPI login success. IP: ::ffff:172.18.0.5
+(N) 2025-12-29T00:31:37 - WebAPI login success. IP: ::ffff:172.18.0.3
+(N) 2025-12-29T00:34:39 - Added new torrent. Torrent: "Futurama S09E03 The Temp 1080p DSNP WEB-DL DDP5 1 H 264-FLUX[TGx"
+(N) 2025-12-29T00:34:45 - Added new torrent. Torrent: "Futurama S09E04 Beauty and the Bug 1080p DSNP WEB-DL DDP5 1 H 264-FLUX[TGx]"
+(N) 2025-12-29T00:34:47 - Added new torrent. Torrent: "Futurama S09E05 One is Silicon and the Other Gold 1080p DSNP WEB"
+(N) 2025-12-29T00:34:54 - Added new torrent. Torrent: "Futurama S09E06 Attack of the Clothes 1080p DSNP WEB-DL DDP5 1 H 264-FLUX"
+(N) 2025-12-29T00:35:02 - Added new torrent. Torrent: "Futurama S09E07 Planet Espresso 1080p DSNP WEB-DL DDP5 1 H 264-N"
+(N) 2025-12-29T00:35:05 - Added new torrent. Torrent: "Futurama S09E08 Tenerezza esagerata ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:35:14 - Added new torrent. Torrent: "Futurama S09E09 The Futurama Mystery Liberry 1080p DSNP WEB-DL D"
+(N) 2025-12-29T00:35:21 - Added new torrent. Torrent: "Futurama S09E10 Realta alternative ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:35:25 - Added new torrent. Torrent: "Futurama S10E01 Destroy Tall Monsters 1080p DSNP WEB-DL DDP5 1 H 264-FLUX EZTV"
+(N) 2025-12-29T00:35:30 - Added new torrent. Torrent: "Futurama S10E02 The World is Hot Enough 1080p DSNP WEB-DL DDP5 1 H 264-STC EZTV"
+(N) 2025-12-29T00:35:39 - Added new torrent. Torrent: "Futurama S10E03 Fifty Shades of Green 1080p DSNP WEB-DL DDP5 1 H 264-FLUX EZTV"
+(N) 2025-12-29T00:35:43 - Added new torrent. Torrent: "Futurama S10E04 The Numberland Gap 1080p DSNP WEB-DL DDP5 1 H 264-FLUX EZTV"
+(N) 2025-12-29T00:35:49 - Added new torrent. Torrent: "Futurama S10E05 Scared Screenless 1080p DSNP WEB-DL DDP5 1 H 264-STC"
+(N) 2025-12-29T00:35:57 - Added new torrent. Torrent: "futurama s10e06 1080p web h264-nixon[eztv io]"
+(N) 2025-12-29T00:35:59 - Added new torrent. Torrent: "Futurama S10E07 Murderoni 1080p DSNP WEB-DL DDP5 1 H 264-STC EZTV"
+(N) 2025-12-29T00:36:09 - Added new torrent. Torrent: "Futurama S10E08 Crab Splatter 1080p DSNP WEB-DL DDP5 1 H 264-STC EZTV"
+(N) 2025-12-29T00:36:13 - Added new torrent. Torrent: "Futurama S10E09 The Trouble with Truffles 1080p DSNP WEB-DL DDP5 1 H 264-STC EZTV"
+(N) 2025-12-29T00:36:19 - Added new torrent. Torrent: "Futurama S10E10 The White Hole 1080p DSNP WEB-DL DDP5 1 H 264-STC"
+(N) 2025-12-29T00:40:28 - Torrent download finished. Torrent: "Futurama S09E04 Beauty and the Bug 1080p DSNP WEB-DL DDP5 1 H 264-FLUX[TGx]"
+(N) 2025-12-29T00:43:56 - Torrent download finished. Torrent: "Futurama S09E05 One is Silicon and the Other Gold 1080p DSNP WEB"
+(N) 2025-12-29T00:45:33 - qBittorrent termination initiated
+(N) 2025-12-29T00:45:35 - Saving resume data completed.
+(N) 2025-12-29T00:45:36 - BitTorrent session successfully finished.
+(N) 2025-12-29T00:45:36 - qBittorrent is now ready to exit
+(N) 2025-12-29T00:50:16 - qBittorrent v5.1.4 started. Process ID: 150
+(N) 2025-12-29T00:50:16 - Using config directory: /config/qBittorrent
+(N) 2025-12-29T00:50:17 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-12-29T00:50:18 - Peer ID: "-qB5140-"
+(I) 2025-12-29T00:50:18 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2025-12-29T00:50:18 - Distributed Hash Table (DHT) support: ON
+(I) 2025-12-29T00:50:18 - Local Peer Discovery support: ON
+(I) 2025-12-29T00:50:18 - Peer Exchange (PeX) support: ON
+(I) 2025-12-29T00:50:18 - Anonymous mode: OFF
+(I) 2025-12-29T00:50:18 - Encryption support: ON
+(I) 2025-12-29T00:50:18 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-12-29T00:50:18 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-12-29T00:50:18 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2025-12-29T00:50:18 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2025-12-29T00:50:18 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-12-29T00:50:18 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S09E03 The Temp 1080p DSNP WEB-DL DDP5 1 H 264-FLUX[TGx"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S09E04 Beauty and the Bug 1080p DSNP WEB-DL DDP5 1 H 264-FLUX[TGx]"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S09E05 One is Silicon and the Other Gold 1080p DSNP WEB"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S09E06 Attack of the Clothes 1080p DSNP WEB-DL DDP5 1 H 264-FLUX"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S09E07 Planet Espresso 1080p DSNP WEB-DL DDP5 1 H 264-N"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S09E08 Tenerezza esagerata ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S09E09 The Futurama Mystery Liberry 1080p DSNP WEB-DL D"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S09E10 Realta alternative ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S10E01 Destroy Tall Monsters 1080p DSNP WEB-DL DDP5 1 H 264-FLUX EZTV"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S10E02 The World is Hot Enough 1080p DSNP WEB-DL DDP5 1 H 264-STC EZTV"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S10E03 Fifty Shades of Green 1080p DSNP WEB-DL DDP5 1 H 264-FLUX EZTV"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S10E04 The Numberland Gap 1080p DSNP WEB-DL DDP5 1 H 264-FLUX EZTV"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S10E05 Scared Screenless 1080p DSNP WEB-DL DDP5 1 H 264-STC"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "futurama s10e06 1080p web h264-nixon[eztv io]"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S10E07 Murderoni 1080p DSNP WEB-DL DDP5 1 H 264-STC EZTV"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S10E08 Crab Splatter 1080p DSNP WEB-DL DDP5 1 H 264-STC EZTV"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S10E09 The Trouble with Truffles 1080p DSNP WEB-DL DDP5 1 H 264-STC EZTV"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S10E10 The White Hole 1080p DSNP WEB-DL DDP5 1 H 264-STC"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Fallout 2024 S02E02 1080p WEB h264-ETHEL"
+(N) 2025-12-29T00:50:19 - Restored torrent. Torrent: "Futurama S09E02 Quids Game ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(I) 2025-12-29T00:50:20 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 30 23:28:10 2025.
+(N) 2025-12-29T00:50:21 - Using built-in WebUI.
+(N) 2025-12-29T00:50:21 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-12-29T00:50:21 - WebUI: Now listening on IP: *, port: 8082
+(I) 2025-12-29T00:50:21 - Detected external IP. IP: "177.181.2.77"
+(N) 2025-12-29T00:50:57 - WebAPI login success. IP: ::ffff:172.18.0.5
+(N) 2025-12-29T00:51:01 - WebAPI login success. IP: ::ffff:172.18.0.4
+(N) 2025-12-29T00:51:03 - WebAPI login success. IP: ::ffff:172.18.0.6
+(N) 2025-12-29T00:52:28 - Torrent download finished. Torrent: "Futurama S09E06 Attack of the Clothes 1080p DSNP WEB-DL DDP5 1 H 264-FLUX"
+(N) 2025-12-29T01:01:34 - Torrent download finished. Torrent: "Futurama S09E03 The Temp 1080p DSNP WEB-DL DDP5 1 H 264-FLUX[TGx"
+(N) 2025-12-29T01:09:28 - Torrent download finished. Torrent: "Futurama S09E08 Tenerezza esagerata ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T01:13:27 - Torrent download finished. Torrent: "Futurama S09E09 The Futurama Mystery Liberry 1080p DSNP WEB-DL D"
+(N) 2025-12-29T01:23:30 - Torrent download finished. Torrent: "Futurama S09E10 Realta alternative ITA ENG 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
+(N) 2025-12-29T01:26:06 - Torrent download finished. Torrent: "Futurama S10E01 Destroy Tall Monsters 1080p DSNP WEB-DL DDP5 1 H 264-FLUX EZTV"
+(N) 2025-12-29T01:28:25 - Torrent download finished. Torrent: "Futurama S10E02 The World is Hot Enough 1080p DSNP WEB-DL DDP5 1 H 264-STC EZTV"
+(N) 2025-12-29T01:28:37 - Torrent download finished. Torrent: "Futurama S09E07 Planet Espresso 1080p DSNP WEB-DL DDP5 1 H 264-N"
+(N) 2025-12-29T01:31:25 - Torrent download finished. Torrent: "Futurama S10E03 Fifty Shades of Green 1080p DSNP WEB-DL DDP5 1 H 264-FLUX EZTV"
+(N) 2025-12-29T01:31:58 - Torrent download finished. Torrent: "Futurama S10E04 The Numberland Gap 1080p DSNP WEB-DL DDP5 1 H 264-FLUX EZTV"
+(N) 2025-12-29T01:34:33 - Torrent download finished. Torrent: "futurama s10e06 1080p web h264-nixon[eztv io]"
+(N) 2025-12-29T01:34:54 - Torrent download finished. Torrent: "Futurama S10E05 Scared Screenless 1080p DSNP WEB-DL DDP5 1 H 264-STC"
+(N) 2025-12-29T01:37:33 - Torrent download finished. Torrent: "Futurama S10E07 Murderoni 1080p DSNP WEB-DL DDP5 1 H 264-STC EZTV"
+(N) 2025-12-29T01:38:07 - Torrent download finished. Torrent: "Futurama S10E08 Crab Splatter 1080p DSNP WEB-DL DDP5 1 H 264-STC EZTV"
+(N) 2025-12-29T01:40:27 - Torrent download finished. Torrent: "Futurama S10E09 The Trouble with Truffles 1080p DSNP WEB-DL DDP5 1 H 264-STC EZTV"
+(N) 2025-12-29T01:41:21 - Torrent download finished. Torrent: "Futurama S10E10 The White Hole 1080p DSNP WEB-DL DDP5 1 H 264-STC"
+(N) 2025-12-29T01:55:06 - Torrent download finished. Torrent: "Futurama S09E01 The One Amigo 1080p DSNP WEB-DL DDP5 1 H 264-MeM GP mkv"
