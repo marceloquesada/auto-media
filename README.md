@@ -4,6 +4,6 @@ To  install auto-media in a compatible , simply paste the following commands int
 
 ```
 sudo apt-get update &&
-git clone https://github.com/marceloquesada/auto-media.git
+git clone https://github.com/marceloquesada/auto-media.git &&
 docker compose up
 ```
